@@ -1,0 +1,44 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../leaflet-element/leaflet-element.html">
+
+<dom-module id="map-polymer-app">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <leaflet-element id="wpc"></leaflet-element>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'map-polymer-app',
+
+      attached: function() {
+        this.$.wpc.render({
+          maxBounds: [[61, -8.5], [49,1]],
+          minZoom: 6.1
+        });
+        this.$.wpc.map.setView([51.505, -0.09], 6.4);
+        this.$.wpc.leaflet.tileLayer(
+          'https://api.mapbox.com/styles/v1/alexbw/citwy0fnb008w2iqieu6xikfo/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYWxleGJ3IiwiYSI6ImNpdHd4dHl6OTAwM2syc24yc2UwdWpmYzgifQ.91bWqM4klaFQkI33Ay7lRA',
+          {
+            attribution:'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+            maxZoom: 18,
+          }
+        ).addTo(this.$.wpc.map);
+
+      },
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'map-polymer-app',
+        },
+      },
+
+    });
+  </script>
+</dom-module>

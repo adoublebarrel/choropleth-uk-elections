@@ -1,0 +1,7 @@
+{
+  "name": "map-polymer",
+  "short_name": "map-polymer",
+  "description": "A choropleth map of the U.K. Parliamentary Constituencies and General Election Results",
+  "start_url": "/",
+  "display": "standalone"
+}

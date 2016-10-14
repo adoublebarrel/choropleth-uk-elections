@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>map-polymer-app test</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+    <script src="../../../webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="../../../web-component-tester/browser.js"></script>
+
+    <link rel="import" href="../../src/leaflet-element/leaflet-element.html">
+  </head>
+  <body>
+
+    <test-fixture id="basic">
+      <template>
+        <leaflet-element></leaflet-element>
+      </template>
+    </test-fixture>
+
+    <script>
+      suite('map-polymer-app', function() {
+
+        test('instantiating the element works', function() {
+          var element = fixture('basic');
+          assert.equal(element.is, 'leaflet-element');
+        });
+
+        test('leaflets api is accessible via the elements "leaflet" property', function() {
+          var element = fixture('basic');
+          assert.isString(element.leaflet.version);
+        });
+
+        test('leaflets map object is accessible via leaflet-element.map', function() {
+          var element = fixture('basic');
+          assert.isObject(element.map.setView([51.505, -0.09], 13));
+        });
+
+      });
+    </script>
+  </body>
+</html>

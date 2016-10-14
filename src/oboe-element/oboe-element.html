@@ -1,0 +1,27 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<dom-module id="oboe-element">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'oboe-element',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'oboe-element',
+        },
+      },
+
+    });
+  </script>
+</dom-module>

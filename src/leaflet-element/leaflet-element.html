@@ -1,0 +1,39 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="leaflet-code-import.html">
+<link rel="import" href="leaflet-style-import.html">
+
+<dom-module id="leaflet-element">
+  <template>
+    <style include="leaflet-style-import.html"></style>
+    <style>
+      #map {
+        height: calc(100vh - 8px);
+      }
+    </style>
+    <div id="map"></div>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'leaflet-element',
+
+      attached: function() {
+        this.leaflet = L;
+      },
+
+      properties: {
+        map: {
+          type: Object
+        },
+        leaflet: {
+          type: Object
+        }
+      },
+
+      render: function(options) {
+        this.map = L.map(this.$.map, options);
+      },
+    });
+  </script>
+</dom-module>
