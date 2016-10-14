@@ -2,7 +2,7 @@
 
 <html>
   <head>
-    <title>map-polymer-app test</title>
+    <title>Leaflet Element tests</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
     <script src="../../../webcomponentsjs/webcomponents-lite.js"></script>
@@ -20,20 +20,26 @@
 
     <script>
       suite('map-polymer-app', function() {
+        setup(function() {
+          this.element = fixture('basic');
+        });
 
         test('instantiating the element works', function() {
-          var element = fixture('basic');
-          assert.equal(element.is, 'leaflet-element');
+          assert.equal(this.element.is, 'leaflet-element');
         });
 
-        test('leaflets api is accessible via the elements "leaflet" property', function() {
-          var element = fixture('basic');
-          assert.isString(element.leaflet.version);
+        test('the element proxies leaflets api', function() {
+          assert.isString(this.element.version);
         });
 
-        test('leaflets map object is accessible via leaflet-element.map', function() {
-          var element = fixture('basic');
-          assert.isObject(element.map.setView([51.505, -0.09], 13));
+        test('the element has a renderedMap property that is initially undefined', function() {
+          assert.isUndefined(this.element.renderedMap);
+        });
+
+        test('the element has a render method which creates a leaflet map and stores it in the renderedMap property', function() {
+          this.element.render({});
+          assert.isObject(this.element.renderedMap);
+
         });
 
       });

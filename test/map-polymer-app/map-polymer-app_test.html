@@ -21,9 +21,30 @@
     <script>
       suite('map-polymer-app', function() {
 
+        setup(function() {
+          var mapStub, tileStub, addToStub;
+
+          stub('leaflet-element', {
+            render: function() { return; },
+          });
+
+          this.element = fixture('basic');
+
+          mapStub = sinon.stub(this.element.renderedMap, 'setView');
+          tileStub = sinon.stub(this.element, 'tileLayer');
+          addToStub = sinon.stub(this.element, 'addTo');
+
+          tileStub.returnsThis();
+        });
+
+        teardown(function() {
+          this.element.renderedMap.setView.restore();
+          this.element.tileLayer.restore();
+          this.element.addTo.restore();
+        });
+
         test('instantiating the element works', function() {
-          var element = fixture('basic');
-          assert.equal(element.is, 'map-polymer-app');
+          assert.equal(this.element.is, 'map-polymer-app');
         });
 
       });

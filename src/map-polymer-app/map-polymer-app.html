@@ -21,14 +21,14 @@
           maxBounds: [[61, -8.5], [49,1]],
           minZoom: 6.1
         });
-        this.$.wpc.map.setView([51.505, -0.09], 6.4);
-        this.$.wpc.leaflet.tileLayer(
+        this.$.wpc.renderedMap.setView([54.8, 2], 6.4);
+        this.$.wpc.tileLayer(
           'https://api.mapbox.com/styles/v1/alexbw/citwy0fnb008w2iqieu6xikfo/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYWxleGJ3IiwiYSI6ImNpdHd4dHl6OTAwM2syc24yc2UwdWpmYzgifQ.91bWqM4klaFQkI33Ay7lRA',
           {
             attribution:'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
             maxZoom: 18,
           }
-        ).addTo(this.$.wpc.map);
+        ).addTo(this.$.wpc.renderedMap);
 
       },
 

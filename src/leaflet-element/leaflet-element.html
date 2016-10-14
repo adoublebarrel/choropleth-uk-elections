@@ -7,7 +7,7 @@
     <style include="leaflet-style-import.html"></style>
     <style>
       #map {
-        height: calc(100vh - 8px);
+        height: calc(98vh);
       }
     </style>
     <div id="map"></div>
@@ -17,23 +17,17 @@
     Polymer({
 
       is: 'leaflet-element',
-
-      attached: function() {
-        this.leaflet = L;
-      },
+      behaviors: [L], // Is this an abusive use of Polymer behaviors?
 
       properties: {
-        map: {
-          type: Object
-        },
-        leaflet: {
+        renderedMap: {
           type: Object
         }
       },
 
       render: function(options) {
-        this.map = L.map(this.$.map, options);
-      },
+        this.renderedMap = L.map(this.$.map, options);
+      }
     });
   </script>
 </dom-module>
