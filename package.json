@@ -1,5 +1,15 @@
 {
   "dependencies": {
     "polylabel": "^1.0.2"
-  }
+  },
+  "name": "map-polymer",
+  "version": "1.0.0",
+  "description": "A choropleth map of the U.K. Parliamentary Constituencies and General Election Results",
+  "main": "index.html",
+  "repository": {
+    "url": "https://github.com/adoublebarrel/choropleth-uk-elections.git",
+    "type": "git"
+  },
+  "author": "adoublebarrel <alex.bransbywilliams@gmail.com>",
+  "license": "MIT"
 }

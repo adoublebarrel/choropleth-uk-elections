@@ -1,8 +1,7 @@
-<link rel="import" href="../../bower_components/polymer/polymer.html">
-<link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="/bower_components/polymer/polymer.html">
+<link rel="import" href="/bower_components/iron-ajax/iron-ajax.html">
 <link rel="import" href="../leaflet-element/leaflet-element.html">
 <link rel="import" href="../oboe-element/oboe-element.html">
-<script src="/node_modules/polylabel/index.js">
 
 <dom-module id="map-polymer-app">
   <template>
@@ -13,8 +12,8 @@
 
     </style>
     <leaflet-element id="wpc"></leaflet-element>
-    <oboe-element id="constituencies" url="http://localhost:8080/wpc-full.json" nodes="[[jsonPathsToEvents]]"></oboe-element>
-    <iron-ajax id="results" url="http://localhost:8080/2016_results.json" handle-as="json" auto></iron-ajax>
+    <oboe-element id="constituencies" url="/data/wpc-full.json" nodes="[[jsonPathsToEvents]]"></oboe-element>
+    <iron-ajax id="results" url="/data/2016_results.json" handle-as="json" auto></iron-ajax>
   </template>
 
   <script>
