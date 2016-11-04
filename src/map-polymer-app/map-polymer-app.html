@@ -1,14 +1,20 @@
 <link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
 <link rel="import" href="../leaflet-element/leaflet-element.html">
+<link rel="import" href="../oboe-element/oboe-element.html">
+<script src="/node_modules/polylabel/index.js">
 
 <dom-module id="map-polymer-app">
   <template>
     <style>
       :host {
         display: block;
-      }
+      };
+
     </style>
     <leaflet-element id="wpc"></leaflet-element>
+    <oboe-element id="constituencies" url="http://localhost:8080/wpc-full.json" nodes="[[jsonPathsToEvents]]"></oboe-element>
+    <iron-ajax id="results" url="http://localhost:8080/2016_results.json" handle-as="json" auto></iron-ajax>
   </template>
 
   <script>
@@ -18,27 +24,134 @@
 
       attached: function() {
         this.$.wpc.render({
-          maxBounds: [[61, -8.5], [49,1]],
-          minZoom: 6.1
+          maxBounds: [[61, -8.5], [49,2]],
+          zoomSnap: 0.2,
+          minZoom: 1,
+          renderer: this.$.wpc.svg()
         });
-        this.$.wpc.renderedMap.setView([54.8, 2], 6.4);
+        this.$.wpc.renderedMap.setView([54.8, 2], 5.2);
+        this.$.wpc.renderedMap.createPane('labels');
+        this.$.wpc.renderedMap.getPane('labels').style.zIndex = 650;
+        this.$.wpc.renderedMap.getPane('labels').style.pointerEvents = 'none';
+
         this.$.wpc.tileLayer(
           'https://api.mapbox.com/styles/v1/alexbw/citwy0fnb008w2iqieu6xikfo/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYWxleGJ3IiwiYSI6ImNpdHd4dHl6OTAwM2syc24yc2UwdWpmYzgifQ.91bWqM4klaFQkI33Ay7lRA',
           {
             attribution:'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
             maxZoom: 18,
           }
+        ).addTo(this.$.wpc.renderedMap).once('load', this.startWpcLoad, this);
+
+        this.$.wpc.tileLayer(
+          'https://api.mapbox.com/styles/v1/alexbw/ciuzj2nk901ff2jl8enk0hcqb/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYWxleGJ3IiwiYSI6ImNpdHd4dHl6OTAwM2syc24yc2UwdWpmYzgifQ.91bWqM4klaFQkI33Ay7lRA',
+          {
+            attribution: '',
+            maxZoom: 18,
+            pane: 'labels',
+          }
         ).addTo(this.$.wpc.renderedMap);
 
+        this.wpcLayer = L.geoJSON(
+          { "type": "FeatureCollection", features: []},
+          {
+            style: function(feature) { return { className: 'wpc', fillOpacity: 0.6, color: 'white', fillColor: 'grey', weight: 1} },
+           // onEachFeature: function(feature, layer) {
+           //   console.debug(feature, layer);
+           //   layer.setStyle({fillColor: 'turqoise'});
+           // }
+          }
+        ).addTo(this.$.wpc.renderedMap); //.on('layeradd', this.throttleLayerAdd, this);
+      },
+
+      listeners: {
+        'ev1': 'addFeatureToMap',
+        //'layeradd': 'throttle'
       },
 
       properties: {
-        prop1: {
-          type: String,
-          value: 'map-polymer-app',
+        jsonPathsToEvents: {
+          type: Object,
+          value: {
+            'features.*': { eventName: 'ev1', drop: true }
+          }
         },
+
+        wpcLayer: {
+          type: Object,
+        },
+
+        throttle: {
+          type: Boolean,
+          value: false
+        },
+
+        queue: {
+          type: Array,
+          value: []
+        },
+
+        started: {
+          type: Boolean,
+          value: false
+        },
+        count: {
+          type: Number,
+          value: 0
+        },
+
+        colors: {
+          type: Object,
+          value: {
+            con: '#377eb8',
+            green: '#4daf4a',
+            sf: '#008800',
+            sdlp: '#99FF66',
+            uup: '#9999FF',
+            dup: '#D46A4C',
+            lab: '#e41a1c',
+            ld: '#ff7f00',
+            snp: '#FFDA2F',
+            pc: '#008142',
+            ukip: '#984ea3',
+            other: '#999999'
+          }
+        }
+
       },
 
+      addFeatureToMap: function(e) {
+        this.wpcLayer.addData(e.detail.node);
+        //this.queue.push(e.detail.node);
+        if (this.throttle === false ) {
+          //this.throttleLayerAdd();
+        }
+
+
+      },
+
+      startWpcLoad: function() {
+        this.$.constituencies.generateRequest();
+      },
+
+      endWpcLoad: function() {
+        this.wpcLayer.eachLayer(function (layer) {
+          //console.debug(layer.feature.properties.PCON13CD);
+          this.count = this.count +1;
+          var winner = this.$.results.lastResponse[layer.feature.properties.id].results[0].party_abbreviation.toLowerCase();
+
+          if (!this.colors[winner]) {
+            console.debug(winner);
+            winner = 'other';
+          }
+
+          layer.setStyle({
+            fillColor: this.colors[winner]
+          });
+
+          this.updateStyles();
+        }, this);
+
+      }
     });
   </script>
 </dom-module>

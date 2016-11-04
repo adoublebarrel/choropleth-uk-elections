@@ -4,11 +4,19 @@
 
 <dom-module id="leaflet-element">
   <template>
-    <style include="leaflet-style-import.html"></style>
     <style>
+      :host {
+      };
+
       #map {
         height: calc(98vh);
+        @apply(--leaflet-element-theme);
+      };
+
+      .wpc {
+        transition: fill 0.75s;
       }
+
     </style>
     <div id="map"></div>
   </template>
@@ -18,6 +26,10 @@
 
       is: 'leaflet-element',
       behaviors: [L], // Is this an abusive use of Polymer behaviors?
+
+      ready: function() {
+        this.scopeSubtree(this.$.map, true);
+      },
 
       properties: {
         renderedMap: {

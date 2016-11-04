@@ -1,0 +1,9773 @@
+{
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.7769978560542553,
+     51.285421376256814
+    ]
+   },
+   "properties": {
+    "cdo": "A01",
+    "name": "Aldershot",
+    "id": "E14000530"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.928151194401668,
+     52.614301467066696
+    ]
+   },
+   "properties": {
+    "cdo": "A02",
+    "name": "Aldridge-Brownhills",
+    "id": "E14000531"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.3657232230183562,
+     53.393524146792764
+    ]
+   },
+   "properties": {
+    "cdo": "A03",
+    "name": "Altrincham and Sale West",
+    "id": "E14000532"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.397907279340618,
+     53.04192497705377
+    ]
+   },
+   "properties": {
+    "cdo": "A04",
+    "name": "Amber Valley",
+    "id": "E14000533"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "A05",
+    "name": "Arundel and South Downs",
+    "id": "E14000534"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.2605652763274646,
+     53.08740952317241
+    ]
+   },
+   "properties": {
+    "cdo": "A06",
+    "name": "Ashfield",
+    "id": "E14000535"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.7307129541128257,
+     51.12986887991363
+    ]
+   },
+   "properties": {
+    "cdo": "A07",
+    "name": "Ashford",
+    "id": "E14000536"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.150941974169836,
+     53.49505321601657
+    ]
+   },
+   "properties": {
+    "cdo": "A08",
+    "name": "Ashton-under-Lyne",
+    "id": "E14000537"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.7980703576252615,
+     51.73204443496301
+    ]
+   },
+   "properties": {
+    "cdo": "A09",
+    "name": "Aylesbury",
+    "id": "E14000538"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.353218845519006,
+     51.99885004462719
+    ]
+   },
+   "properties": {
+    "cdo": "A10",
+    "name": "Banbury",
+    "id": "E14000539"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "A11",
+    "name": "Barking",
+    "id": "E14000540"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.4909450896112615,
+     53.57232505637346
+    ]
+   },
+   "properties": {
+    "cdo": "A12",
+    "name": "Barnsley Central",
+    "id": "E14000541"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.4134239491136305,
+     53.5391761701821
+    ]
+   },
+   "properties": {
+    "cdo": "A13",
+    "name": "Barnsley East",
+    "id": "E14000542"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "A14",
+    "name": "Barrow and Furness",
+    "id": "E14000543"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.41783905924637155,
+     51.608462085899134
+    ]
+   },
+   "properties": {
+    "cdo": "A15",
+    "name": "Basildon and Billericay",
+    "id": "E14000544"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.1112917422755186,
+     51.26350211881156
+    ]
+   },
+   "properties": {
+    "cdo": "A16",
+    "name": "Basingstoke",
+    "id": "E14000545"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.981645174631151,
+     53.359297024653685
+    ]
+   },
+   "properties": {
+    "cdo": "A17",
+    "name": "Bassetlaw",
+    "id": "E14000546"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.366716890837589,
+     51.380237078774826
+    ]
+   },
+   "properties": {
+    "cdo": "A18",
+    "name": "Bath",
+    "id": "E14000547"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.6845729732447414,
+     53.72325275864403
+    ]
+   },
+   "properties": {
+    "cdo": "A19",
+    "name": "Batley and Spen",
+    "id": "E14000548"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.16180745819335163,
+     51.46601601846026
+    ]
+   },
+   "properties": {
+    "cdo": "A20",
+    "name": "Battersea",
+    "id": "E14000549"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.5800557327560887,
+     51.56013887379313
+    ]
+   },
+   "properties": {
+    "cdo": "A21",
+    "name": "Beaconsfield",
+    "id": "E14000550"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.013417362546711102,
+     51.385614567507005
+    ]
+   },
+   "properties": {
+    "cdo": "A22",
+    "name": "Beckenham",
+    "id": "E14000551"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.4858075226123221,
+     52.126464413784674
+    ]
+   },
+   "properties": {
+    "cdo": "A23",
+    "name": "Bedford",
+    "id": "E14000552"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.06722787078206136,
+     51.49388520194126
+    ]
+   },
+   "properties": {
+    "cdo": "A24",
+    "name": "Bermondsey and Old Southwark",
+    "id": "E14000553"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "A25",
+    "name": "Berwick-upon-Tweed",
+    "id": "E14000554"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.047832655066532045,
+     51.52670690580336
+    ]
+   },
+   "properties": {
+    "cdo": "A26",
+    "name": "Bethnal Green and Bow",
+    "id": "E14000555"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "A27",
+    "name": "Beverley and Holderness",
+    "id": "E14000556"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.4285958640326106,
+     50.94357931785519
+    ]
+   },
+   "properties": {
+    "cdo": "A28",
+    "name": "Bexhill and Battle",
+    "id": "E14000557"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "A29",
+    "name": "Bexleyheath and Crayford",
+    "id": "E14000558"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.0460537137590884,
+     53.38587630237033
+    ]
+   },
+   "properties": {
+    "cdo": "A30",
+    "name": "Birkenhead",
+    "id": "E14000559"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.9837409068108225,
+     52.44909854260468
+    ]
+   },
+   "properties": {
+    "cdo": "A31",
+    "name": "Birmingham, Edgbaston",
+    "id": "E14000560"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.8582566372822582,
+     52.5318466189274
+    ]
+   },
+   "properties": {
+    "cdo": "A32",
+    "name": "Birmingham, Erdington",
+    "id": "E14000561"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.8704931522553432,
+     52.44203568723218
+    ]
+   },
+   "properties": {
+    "cdo": "A33",
+    "name": "Birmingham, Hall Green",
+    "id": "E14000562"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.8443146763836724,
+     52.48667986939368
+    ]
+   },
+   "properties": {
+    "cdo": "A34",
+    "name": "Birmingham, Hodge Hill",
+    "id": "E14000563"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.883359900193804,
+     52.48974657584384
+    ]
+   },
+   "properties": {
+    "cdo": "A35",
+    "name": "Birmingham, Ladywood",
+    "id": "E14000564"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.9693373413558377,
+     52.406902074914626
+    ]
+   },
+   "properties": {
+    "cdo": "A36",
+    "name": "Birmingham, Northfield",
+    "id": "E14000565"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.9125086832271245,
+     52.52903902755088
+    ]
+   },
+   "properties": {
+    "cdo": "A37",
+    "name": "Birmingham, Perry Barr",
+    "id": "E14000566"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.9358239713956031,
+     52.42487131792638
+    ]
+   },
+   "properties": {
+    "cdo": "A38",
+    "name": "Birmingham, Selly Oak",
+    "id": "E14000567"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.808697000698274,
+     52.46153985088632
+    ]
+   },
+   "properties": {
+    "cdo": "A39",
+    "name": "Birmingham, Yardley",
+    "id": "E14000568"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.9366942051375742,
+     54.59119275885051
+    ]
+   },
+   "properties": {
+    "cdo": "A40",
+    "name": "Bishop Auckland",
+    "id": "E14000569"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.5016250505055337,
+     53.747244536937266
+    ]
+   },
+   "properties": {
+    "cdo": "A41",
+    "name": "Blackburn",
+    "id": "E14000570"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.230488349624096,
+     53.51404397819295
+    ]
+   },
+   "properties": {
+    "cdo": "A42",
+    "name": "Blackley and Broughton",
+    "id": "E14000571"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.02901389364626,
+     53.85825483205052
+    ]
+   },
+   "properties": {
+    "cdo": "A43",
+    "name": "Blackpool North and Cleveleys",
+    "id": "E14000572"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.0260068444213277,
+     53.7989229364202
+    ]
+   },
+   "properties": {
+    "cdo": "A44",
+    "name": "Blackpool South",
+    "id": "E14000573"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.7992818880245542,
+     54.9311395366788
+    ]
+   },
+   "properties": {
+    "cdo": "A45",
+    "name": "Blaydon",
+    "id": "E14000574"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.5544219895148674,
+     55.092599828613274
+    ]
+   },
+   "properties": {
+    "cdo": "A46",
+    "name": "Blyth Valley",
+    "id": "E14000575"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "A47",
+    "name": "Bognor Regis and Littlehampton",
+    "id": "E14000576"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.3089229506753712,
+     53.202051433621385
+    ]
+   },
+   "properties": {
+    "cdo": "A48",
+    "name": "Bolsover",
+    "id": "E14000577"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.415206663501285,
+     53.60380886673943
+    ]
+   },
+   "properties": {
+    "cdo": "A49",
+    "name": "Bolton North East",
+    "id": "E14000578"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.410299069226107,
+     53.55310755907068
+    ]
+   },
+   "properties": {
+    "cdo": "A50",
+    "name": "Bolton South East",
+    "id": "E14000579"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.5199247664475046,
+     53.57634688559911
+    ]
+   },
+   "properties": {
+    "cdo": "A51",
+    "name": "Bolton West",
+    "id": "E14000580"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.9968228213906034,
+     53.467828885675125
+    ]
+   },
+   "properties": {
+    "cdo": "A52",
+    "name": "Bootle",
+    "id": "E14000581"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "A53",
+    "name": "Boston and Skegness",
+    "id": "E14000582"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.397256697632012,
+     52.60814759139746
+    ]
+   },
+   "properties": {
+    "cdo": "A54",
+    "name": "Bosworth",
+    "id": "E14000583"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.830568950310424,
+     50.73862742192195
+    ]
+   },
+   "properties": {
+    "cdo": "A55",
+    "name": "Bournemouth East",
+    "id": "E14000584"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.9002837062500608,
+     50.74555984396682
+    ]
+   },
+   "properties": {
+    "cdo": "A56",
+    "name": "Bournemouth West",
+    "id": "E14000585"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.7750962812792934,
+     51.379709319846874
+    ]
+   },
+   "properties": {
+    "cdo": "A57",
+    "name": "Bracknell",
+    "id": "E14000586"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.7305973816421074,
+     53.81351864599731
+    ]
+   },
+   "properties": {
+    "cdo": "A58",
+    "name": "Bradford East",
+    "id": "E14000587"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.7668835518403727,
+     53.759813710865515
+    ]
+   },
+   "properties": {
+    "cdo": "A59",
+    "name": "Bradford South",
+    "id": "E14000588"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.8192445110222386,
+     53.80073903818348
+    ]
+   },
+   "properties": {
+    "cdo": "A60",
+    "name": "Bradford West",
+    "id": "E14000589"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.5781577374777956,
+     51.9756012251473
+    ]
+   },
+   "properties": {
+    "cdo": "A61",
+    "name": "Braintree",
+    "id": "E14000590"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.248760627724671,
+     51.55325612837646
+    ]
+   },
+   "properties": {
+    "cdo": "A62",
+    "name": "Brent Central",
+    "id": "E14000591"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.30139053967086815,
+     51.5661764267323
+    ]
+   },
+   "properties": {
+    "cdo": "A63",
+    "name": "Brent North",
+    "id": "E14000592"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "A64",
+    "name": "Brentford and Isleworth",
+    "id": "E14000593"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.2656166152851018,
+     51.67710184042619
+    ]
+   },
+   "properties": {
+    "cdo": "A65",
+    "name": "Brentwood and Ongar",
+    "id": "E14000594"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "A66",
+    "name": "Bridgwater and West Somerset",
+    "id": "E14000595"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "A67",
+    "name": "Brigg and Goole",
+    "id": "E14000596"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.05859257599570736,
+     50.821203764381224
+    ]
+   },
+   "properties": {
+    "cdo": "A68",
+    "name": "Brighton, Kemptown",
+    "id": "E14000597"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.13633407103036949,
+     50.85545577850064
+    ]
+   },
+   "properties": {
+    "cdo": "A69",
+    "name": "Brighton, Pavilion",
+    "id": "E14000598"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.5392930964262295,
+     51.45473299511023
+    ]
+   },
+   "properties": {
+    "cdo": "A70",
+    "name": "Bristol East",
+    "id": "E14000599"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "A71",
+    "name": "Bristol North West",
+    "id": "E14000600"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.597902860827125,
+     51.42341848304238
+    ]
+   },
+   "properties": {
+    "cdo": "A72",
+    "name": "Bristol South",
+    "id": "E14000601"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "A73",
+    "name": "Bristol West",
+    "id": "E14000602"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.1789485149874952,
+     52.747546507800074
+    ]
+   },
+   "properties": {
+    "cdo": "A74",
+    "name": "Broadland",
+    "id": "E14000603"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.022516766927392733,
+     51.414108240927355
+    ]
+   },
+   "properties": {
+    "cdo": "A75",
+    "name": "Bromley and Chislehurst",
+    "id": "E14000604"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.084100110561239,
+     52.361657404414615
+    ]
+   },
+   "properties": {
+    "cdo": "A76",
+    "name": "Bromsgrove",
+    "id": "E14000605"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.06806573243810096,
+     51.72066046129598
+    ]
+   },
+   "properties": {
+    "cdo": "A77",
+    "name": "Broxbourne",
+    "id": "E14000606"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.253198859189852,
+     52.964494175893186
+    ]
+   },
+   "properties": {
+    "cdo": "A78",
+    "name": "Broxtowe",
+    "id": "E14000607"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9542888978367701,
+     51.895114337880486
+    ]
+   },
+   "properties": {
+    "cdo": "A79",
+    "name": "Buckingham",
+    "id": "E14000608"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.1889069558174628,
+     53.774129702454026
+    ]
+   },
+   "properties": {
+    "cdo": "A80",
+    "name": "Burnley",
+    "id": "E14000609"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.9073747950389048,
+     52.90974622338459
+    ]
+   },
+   "properties": {
+    "cdo": "A81",
+    "name": "Burton",
+    "id": "E14000610"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.3199033764374994,
+     53.61792284484327
+    ]
+   },
+   "properties": {
+    "cdo": "A82",
+    "name": "Bury North",
+    "id": "E14000611"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.334252867687565,
+     53.55481098993886
+    ]
+   },
+   "properties": {
+    "cdo": "A83",
+    "name": "Bury South",
+    "id": "E14000612"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.7734584237643266,
+     52.242510850944626
+    ]
+   },
+   "properties": {
+    "cdo": "A84",
+    "name": "Bury St Edmunds",
+    "id": "E14000613"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.9922338471424688,
+     53.71788127277309
+    ]
+   },
+   "properties": {
+    "cdo": "A85",
+    "name": "Calder Valley",
+    "id": "E14000614"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.07107217088695675,
+     51.47015698381031
+    ]
+   },
+   "properties": {
+    "cdo": "A86",
+    "name": "Camberwell and Peckham",
+    "id": "E14000615"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "A87",
+    "name": "Camborne and Redruth",
+    "id": "E14000616"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.13110147141104028,
+     52.20210998963098
+    ]
+   },
+   "properties": {
+    "cdo": "A88",
+    "name": "Cambridge",
+    "id": "E14000617"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.9873668847054762,
+     52.70690839723772
+    ]
+   },
+   "properties": {
+    "cdo": "A89",
+    "name": "Cannock Chase",
+    "id": "E14000618"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "A90",
+    "name": "Canterbury",
+    "id": "E14000619"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "A91",
+    "name": "Carlisle",
+    "id": "E14000620"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.15505895991028842,
+     51.361414807655486
+    ]
+   },
+   "properties": {
+    "cdo": "A92",
+    "name": "Carshalton and Wallington",
+    "id": "E14000621"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "A93",
+    "name": "Castle Point",
+    "id": "E14000622"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.7773576139652967,
+     50.74001166888492
+    ]
+   },
+   "properties": {
+    "cdo": "A94",
+    "name": "Central Devon",
+    "id": "E14000623"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2211248097215637,
+     52.22157872132743
+    ]
+   },
+   "properties": {
+    "cdo": "A95",
+    "name": "Central Suffolk and North Ipswich",
+    "id": "E14000624"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.199616230921984,
+     52.69521597262211
+    ]
+   },
+   "properties": {
+    "cdo": "A96",
+    "name": "Charnwood",
+    "id": "E14000625"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "A97",
+    "name": "Chatham and Aylesford",
+    "id": "E14000626"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.1847724778022344,
+     53.370411116068965
+    ]
+   },
+   "properties": {
+    "cdo": "A98",
+    "name": "Cheadle",
+    "id": "E14000627"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.4829356285769907,
+     51.72491213765952
+    ]
+   },
+   "properties": {
+    "cdo": "A99",
+    "name": "Chelmsford",
+    "id": "E14000628"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.1903455591068901,
+     51.47983868218966
+    ]
+   },
+   "properties": {
+    "cdo": "B01",
+    "name": "Chelsea and Fulham",
+    "id": "E14000629"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.0511092366432946,
+     51.888905488678915
+    ]
+   },
+   "properties": {
+    "cdo": "B02",
+    "name": "Cheltenham",
+    "id": "E14000630"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.6277789747786018,
+     51.68052662175173
+    ]
+   },
+   "properties": {
+    "cdo": "B03",
+    "name": "Chesham and Amersham",
+    "id": "E14000631"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.448517400948374,
+     53.248074944768696
+    ]
+   },
+   "properties": {
+    "cdo": "B04",
+    "name": "Chesterfield",
+    "id": "E14000632"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "B05",
+    "name": "Chichester",
+    "id": "E14000633"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.004296027085197525,
+     51.61739606421941
+    ]
+   },
+   "properties": {
+    "cdo": "B06",
+    "name": "Chingford and Woodford Green",
+    "id": "E14000634"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.1818139688756886,
+     51.38724115442605
+    ]
+   },
+   "properties": {
+    "cdo": "B07",
+    "name": "Chippenham",
+    "id": "E14000635"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.1898560115649035,
+     51.63843420127868
+    ]
+   },
+   "properties": {
+    "cdo": "B08",
+    "name": "Chipping Barnet",
+    "id": "E14000636"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.611536526699153,
+     53.66309380680952
+    ]
+   },
+   "properties": {
+    "cdo": "B09",
+    "name": "Chorley",
+    "id": "E14000637"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "B10",
+    "name": "Christchurch",
+    "id": "E14000638"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.13967928123796838,
+     51.50785213013983
+    ]
+   },
+   "properties": {
+    "cdo": "B11",
+    "name": "Cities of London and Westminster",
+    "id": "E14000639"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.911677317207249,
+     53.190575583255864
+    ]
+   },
+   "properties": {
+    "cdo": "B12",
+    "name": "City of Chester",
+    "id": "E14000640"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.5457401565583426,
+     54.76749043387123
+    ]
+   },
+   "properties": {
+    "cdo": "B13",
+    "name": "City of Durham",
+    "id": "E14000641"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "B14",
+    "name": "Clacton",
+    "id": "E14000642"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.348185096890401,
+     53.573986097383454
+    ]
+   },
+   "properties": {
+    "cdo": "B15",
+    "name": "Cleethorpes",
+    "id": "E14000643"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.8868093845043337,
+     51.886883940787534
+    ]
+   },
+   "properties": {
+    "cdo": "B16",
+    "name": "Colchester",
+    "id": "E14000644"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.8567986866667021,
+     53.59659157208512
+    ]
+   },
+   "properties": {
+    "cdo": "B17",
+    "name": "Colne Valley",
+    "id": "E14000645"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.305161923775372,
+     53.1614380582019
+    ]
+   },
+   "properties": {
+    "cdo": "B18",
+    "name": "Congleton",
+    "id": "E14000646"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "B19",
+    "name": "Copeland",
+    "id": "E14000647"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.5452245177649653,
+     52.47439725623927
+    ]
+   },
+   "properties": {
+    "cdo": "B20",
+    "name": "Corby",
+    "id": "E14000648"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.467623608017582,
+     52.42674412999675
+    ]
+   },
+   "properties": {
+    "cdo": "B21",
+    "name": "Coventry North East",
+    "id": "E14000649"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.5554241704419716,
+     52.43128038958635
+    ]
+   },
+   "properties": {
+    "cdo": "B22",
+    "name": "Coventry North West",
+    "id": "E14000650"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.519071217437162,
+     52.39267526621187
+    ]
+   },
+   "properties": {
+    "cdo": "B23",
+    "name": "Coventry South",
+    "id": "E14000651"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.18201157065109397,
+     51.12548200007375
+    ]
+   },
+   "properties": {
+    "cdo": "B24",
+    "name": "Crawley",
+    "id": "E14000652"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.4298062613333413,
+     53.06261634616879
+    ]
+   },
+   "properties": {
+    "cdo": "B25",
+    "name": "Crewe and Nantwich",
+    "id": "E14000653"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.04984898335661947,
+     51.36677014661908
+    ]
+   },
+   "properties": {
+    "cdo": "B26",
+    "name": "Croydon Central",
+    "id": "E14000654"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.10324047791845993,
+     51.39926781808658
+    ]
+   },
+   "properties": {
+    "cdo": "B27",
+    "name": "Croydon North",
+    "id": "E14000655"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.0999491397302965,
+     51.33113981976709
+    ]
+   },
+   "properties": {
+    "cdo": "B28",
+    "name": "Croydon South",
+    "id": "E14000656"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.18346047924094402,
+     51.53289077617317
+    ]
+   },
+   "properties": {
+    "cdo": "B29",
+    "name": "Dagenham and Rainham",
+    "id": "E14000657"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.5566521394496777,
+     54.53201887041733
+    ]
+   },
+   "properties": {
+    "cdo": "B30",
+    "name": "Darlington",
+    "id": "E14000658"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.26297197179991144,
+     51.41973833454133
+    ]
+   },
+   "properties": {
+    "cdo": "B31",
+    "name": "Dartford",
+    "id": "E14000659"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.0316465698504629,
+     52.30757440113086
+    ]
+   },
+   "properties": {
+    "cdo": "B32",
+    "name": "Daventry",
+    "id": "E14000660"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.1276196936093172,
+     53.45382692545134
+    ]
+   },
+   "properties": {
+    "cdo": "B33",
+    "name": "Denton and Reddish",
+    "id": "E14000661"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.5226832242826553,
+     52.92149707230534
+    ]
+   },
+   "properties": {
+    "cdo": "B34",
+    "name": "Derby North",
+    "id": "E14000662"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.462989118107251,
+     52.894068952417115
+    ]
+   },
+   "properties": {
+    "cdo": "B35",
+    "name": "Derby South",
+    "id": "E14000663"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.6735440258830558,
+     53.114957453781145
+    ]
+   },
+   "properties": {
+    "cdo": "B36",
+    "name": "Derbyshire Dales",
+    "id": "E14000664"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.777218161704131,
+     51.34746074356301
+    ]
+   },
+   "properties": {
+    "cdo": "B37",
+    "name": "Devizes",
+    "id": "E14000665"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.6659688956375582,
+     53.62594783869363
+    ]
+   },
+   "properties": {
+    "cdo": "B38",
+    "name": "Dewsbury",
+    "id": "E14000666"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9665959103045789,
+     53.51734263136349
+    ]
+   },
+   "properties": {
+    "cdo": "B39",
+    "name": "Don Valley",
+    "id": "E14000667"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "B40",
+    "name": "Doncaster Central",
+    "id": "E14000668"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "B41",
+    "name": "Doncaster North",
+    "id": "E14000669"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2882559968708807,
+     51.17923147892413
+    ]
+   },
+   "properties": {
+    "cdo": "B42",
+    "name": "Dover",
+    "id": "E14000670"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.1190413390029676,
+     52.525017317818026
+    ]
+   },
+   "properties": {
+    "cdo": "B43",
+    "name": "Dudley North",
+    "id": "E14000671"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.1373332506631715,
+     52.49227694831353
+    ]
+   },
+   "properties": {
+    "cdo": "B44",
+    "name": "Dudley South",
+    "id": "E14000672"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.09153917988425686,
+     51.444223201375564
+    ]
+   },
+   "properties": {
+    "cdo": "B45",
+    "name": "Dulwich and West Norwood",
+    "id": "E14000673"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.287145686068726,
+     51.516300466468834
+    ]
+   },
+   "properties": {
+    "cdo": "B46",
+    "name": "Ealing Central and Acton",
+    "id": "E14000674"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.3465811867067218,
+     51.53534736892024
+    ]
+   },
+   "properties": {
+    "cdo": "B47",
+    "name": "Ealing North",
+    "id": "E14000675"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.35906779964157254,
+     51.50713411554025
+    ]
+   },
+   "properties": {
+    "cdo": "B48",
+    "name": "Ealing, Southall",
+    "id": "E14000676"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.3562057743126235,
+     54.77628553815106
+    ]
+   },
+   "properties": {
+    "cdo": "B49",
+    "name": "Easington",
+    "id": "E14000677"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "B50",
+    "name": "East Devon",
+    "id": "E14000678"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.0549351823952625,
+     51.53114781510591
+    ]
+   },
+   "properties": {
+    "cdo": "B51",
+    "name": "East Ham",
+    "id": "E14000679"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9517293946885896,
+     51.091395118132276
+    ]
+   },
+   "properties": {
+    "cdo": "B52",
+    "name": "East Hampshire",
+    "id": "E14000680"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.04836065491402944,
+     51.22485064354492
+    ]
+   },
+   "properties": {
+    "cdo": "B53",
+    "name": "East Surrey",
+    "id": "E14000681"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "B54",
+    "name": "East Worthing and Shoreham",
+    "id": "E14000682"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.3808039548277259,
+     53.98693256864937
+    ]
+   },
+   "properties": {
+    "cdo": "B55",
+    "name": "East Yorkshire",
+    "id": "E14000683"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.2590354965464733,
+     50.781328106253305
+    ]
+   },
+   "properties": {
+    "cdo": "B56",
+    "name": "Eastbourne",
+    "id": "E14000684"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.3211977494548004,
+     50.93271440720984
+    ]
+   },
+   "properties": {
+    "cdo": "B57",
+    "name": "Eastleigh",
+    "id": "E14000685"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.656099206234073,
+     53.10742173395311
+    ]
+   },
+   "properties": {
+    "cdo": "B58",
+    "name": "Eddisbury",
+    "id": "E14000686"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.05312716367127244,
+     51.62892755372864
+    ]
+   },
+   "properties": {
+    "cdo": "B59",
+    "name": "Edmonton",
+    "id": "E14000687"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "B60",
+    "name": "Ellesmere Port and Neston",
+    "id": "E14000688"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.40182680060464,
+     53.83521234318807
+    ]
+   },
+   "properties": {
+    "cdo": "B61",
+    "name": "Elmet and Rothwell",
+    "id": "E14000689"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.0538846783974475,
+     51.45230064172651
+    ]
+   },
+   "properties": {
+    "cdo": "B62",
+    "name": "Eltham",
+    "id": "E14000690"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.07932859349468752,
+     51.66862095290419
+    ]
+   },
+   "properties": {
+    "cdo": "B63",
+    "name": "Enfield North",
+    "id": "E14000691"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.12580300664238844,
+     51.64221393487673
+    ]
+   },
+   "properties": {
+    "cdo": "B64",
+    "name": "Enfield, Southgate",
+    "id": "E14000692"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.06307435228469334,
+     51.68156741120085
+    ]
+   },
+   "properties": {
+    "cdo": "B65",
+    "name": "Epping Forest",
+    "id": "E14000693"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.2662510400380735,
+     51.335474955172394
+    ]
+   },
+   "properties": {
+    "cdo": "B66",
+    "name": "Epsom and Ewell",
+    "id": "E14000694"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.3085361638950241,
+     52.92169972507931
+    ]
+   },
+   "properties": {
+    "cdo": "B67",
+    "name": "Erewash",
+    "id": "E14000695"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.1344895053199035,
+     51.49158157493309
+    ]
+   },
+   "properties": {
+    "cdo": "B68",
+    "name": "Erith and Thamesmead",
+    "id": "E14000696"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.38074256273300316,
+     51.35691372005434
+    ]
+   },
+   "properties": {
+    "cdo": "B69",
+    "name": "Esher and Walton",
+    "id": "E14000697"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.5336091689885123,
+     50.724871009117976
+    ]
+   },
+   "properties": {
+    "cdo": "B70",
+    "name": "Exeter",
+    "id": "E14000698"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.2678248350758883,
+     50.857873601997305
+    ]
+   },
+   "properties": {
+    "cdo": "B71",
+    "name": "Fareham",
+    "id": "E14000699"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.5953085220735366,
+     51.24411400251593
+    ]
+   },
+   "properties": {
+    "cdo": "B72",
+    "name": "Faversham and Mid Kent",
+    "id": "E14000700"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.40716722724203946,
+     51.46052716392255
+    ]
+   },
+   "properties": {
+    "cdo": "B73",
+    "name": "Feltham and Heston",
+    "id": "E14000701"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.613864646107856,
+     51.53234465596607
+    ]
+   },
+   "properties": {
+    "cdo": "B74",
+    "name": "Filton and Bradley Stoke",
+    "id": "E14000702"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.189961757149703,
+     51.587916681243556
+    ]
+   },
+   "properties": {
+    "cdo": "B75",
+    "name": "Finchley and Golders Green",
+    "id": "E14000703"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.9850643448653339,
+     51.06442685978355
+    ]
+   },
+   "properties": {
+    "cdo": "B76",
+    "name": "Folkestone and Hythe",
+    "id": "E14000704"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.4652176787809887,
+     51.84515599254329
+    ]
+   },
+   "properties": {
+    "cdo": "B77",
+    "name": "Forest of Dean",
+    "id": "E14000705"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.9030811611020524,
+     53.79792515180799
+    ]
+   },
+   "properties": {
+    "cdo": "B78",
+    "name": "Fylde",
+    "id": "E14000706"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "B79",
+    "name": "Gainsborough",
+    "id": "E14000707"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.847174797122399,
+     53.36627606022127
+    ]
+   },
+   "properties": {
+    "cdo": "B80",
+    "name": "Garston and Halewood",
+    "id": "E14000708"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.5975728835513736,
+     54.94522154504709
+    ]
+   },
+   "properties": {
+    "cdo": "B81",
+    "name": "Gateshead",
+    "id": "E14000709"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.0478887167057538,
+     52.98812333395256
+    ]
+   },
+   "properties": {
+    "cdo": "B82",
+    "name": "Gedling",
+    "id": "E14000710"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "B83",
+    "name": "Gillingham and Rainham",
+    "id": "E14000711"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.241509710417594,
+     51.847140437483276
+    ]
+   },
+   "properties": {
+    "cdo": "B84",
+    "name": "Gloucester",
+    "id": "E14000712"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.1777090025424304,
+     50.8096848272605
+    ]
+   },
+   "properties": {
+    "cdo": "B85",
+    "name": "Gosport",
+    "id": "E14000713"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.48013585525851904,
+     52.81646245192048
+    ]
+   },
+   "properties": {
+    "cdo": "B86",
+    "name": "Grantham and Stamford",
+    "id": "E14000714"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.3950756319801523,
+     51.402373512381644
+    ]
+   },
+   "properties": {
+    "cdo": "B87",
+    "name": "Gravesham",
+    "id": "E14000715"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.0954039005634865,
+     53.55751567948437
+    ]
+   },
+   "properties": {
+    "cdo": "B88",
+    "name": "Great Grimsby",
+    "id": "E14000716"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "B89",
+    "name": "Great Yarmouth",
+    "id": "E14000717"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "B90",
+    "name": "Greenwich and Woolwich",
+    "id": "E14000718"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.6462208555581805,
+     51.18413530241234
+    ]
+   },
+   "properties": {
+    "cdo": "B91",
+    "name": "Guildford",
+    "id": "E14000719"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.07237557974053044,
+     51.56220707830703
+    ]
+   },
+   "properties": {
+    "cdo": "B92",
+    "name": "Hackney North and Stoke Newington",
+    "id": "E14000720"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.055192606143110896,
+     51.543204093499384
+    ]
+   },
+   "properties": {
+    "cdo": "B93",
+    "name": "Hackney South and Shoreditch",
+    "id": "E14000721"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.0543440295965807,
+     52.464232939270886
+    ]
+   },
+   "properties": {
+    "cdo": "B94",
+    "name": "Halesowen and Rowley Regis",
+    "id": "E14000722"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.9030929208700484,
+     53.73997026438957
+    ]
+   },
+   "properties": {
+    "cdo": "B95",
+    "name": "Halifax",
+    "id": "E14000723"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "B96",
+    "name": "Haltemprice and Howden",
+    "id": "E14000724"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "B97",
+    "name": "Halton",
+    "id": "E14000725"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.23027604979658522,
+     51.50534447611585
+    ]
+   },
+   "properties": {
+    "cdo": "B98",
+    "name": "Hammersmith",
+    "id": "E14000726"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.19181584416998884,
+     51.547464329122036
+    ]
+   },
+   "properties": {
+    "cdo": "B99",
+    "name": "Hampstead and Kilburn",
+    "id": "E14000727"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.0117497441523355,
+     52.517620306108725
+    ]
+   },
+   "properties": {
+    "cdo": "C01",
+    "name": "Harborough",
+    "id": "E14000728"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.11568239280211269,
+     51.76629790133026
+    ]
+   },
+   "properties": {
+    "cdo": "C02",
+    "name": "Harlow",
+    "id": "E14000729"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.4767825960083931,
+     54.03031070584639
+    ]
+   },
+   "properties": {
+    "cdo": "C03",
+    "name": "Harrogate and Knaresborough",
+    "id": "E14000730"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.33898305891159897,
+     51.61131765219104
+    ]
+   },
+   "properties": {
+    "cdo": "C04",
+    "name": "Harrow East",
+    "id": "E14000731"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.35311857251991524,
+     51.57857503818463
+    ]
+   },
+   "properties": {
+    "cdo": "C05",
+    "name": "Harrow West",
+    "id": "E14000732"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "C06",
+    "name": "Hartlepool",
+    "id": "E14000733"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "C07",
+    "name": "Harwich and North Essex",
+    "id": "E14000734"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.6629151024702415,
+     50.92169696708944
+    ]
+   },
+   "properties": {
+    "cdo": "C08",
+    "name": "Hastings and Rye",
+    "id": "E14000735"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "C09",
+    "name": "Havant",
+    "id": "E14000736"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.4436779984379551,
+     51.49486663354022
+    ]
+   },
+   "properties": {
+    "cdo": "C10",
+    "name": "Hayes and Harlington",
+    "id": "E14000737"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.0658695342821387,
+     53.39921138769751
+    ]
+   },
+   "properties": {
+    "cdo": "C11",
+    "name": "Hazel Grove",
+    "id": "E14000738"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.4797545402129097,
+     51.785785537116894
+    ]
+   },
+   "properties": {
+    "cdo": "C12",
+    "name": "Hemel Hempstead",
+    "id": "E14000739"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.3759023098836316,
+     53.64179252951713
+    ]
+   },
+   "properties": {
+    "cdo": "C13",
+    "name": "Hemsworth",
+    "id": "E14000740"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.2455998854758409,
+     51.60993683261914
+    ]
+   },
+   "properties": {
+    "cdo": "C14",
+    "name": "Hendon",
+    "id": "E14000741"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.0769240151320245,
+     51.66969155574186
+    ]
+   },
+   "properties": {
+    "cdo": "C15",
+    "name": "Henley",
+    "id": "E14000742"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.7826020966742213,
+     51.973816309544596
+    ]
+   },
+   "properties": {
+    "cdo": "C16",
+    "name": "Hereford and South Herefordshire",
+    "id": "E14000743"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.04132079878513584,
+     51.81484991402318
+    ]
+   },
+   "properties": {
+    "cdo": "C17",
+    "name": "Hertford and Stortford",
+    "id": "E14000744"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.2750341028864,
+     51.680865578807314
+    ]
+   },
+   "properties": {
+    "cdo": "C18",
+    "name": "Hertsmere",
+    "id": "E14000745"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.2401177786970625,
+     55.05997811112133
+    ]
+   },
+   "properties": {
+    "cdo": "C19",
+    "name": "Hexham",
+    "id": "E14000746"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.2151260349581436,
+     53.59743090567604
+    ]
+   },
+   "properties": {
+    "cdo": "C20",
+    "name": "Heywood and Middleton",
+    "id": "E14000747"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.873899922482177,
+     53.37307129166668
+    ]
+   },
+   "properties": {
+    "cdo": "C21",
+    "name": "High Peak",
+    "id": "E14000748"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.3041371439430271,
+     51.86571300162309
+    ]
+   },
+   "properties": {
+    "cdo": "C22",
+    "name": "Hitchin and Harpenden",
+    "id": "E14000749"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.1414796900245792,
+     51.542944375528556
+    ]
+   },
+   "properties": {
+    "cdo": "C23",
+    "name": "Holborn and St Pancras",
+    "id": "E14000750"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.25081841489658224,
+     51.570469146087476
+    ]
+   },
+   "properties": {
+    "cdo": "C24",
+    "name": "Hornchurch and Upminster",
+    "id": "E14000751"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.13072046198170664,
+     51.589765135538386
+    ]
+   },
+   "properties": {
+    "cdo": "C25",
+    "name": "Hornsey and Wood Green",
+    "id": "E14000752"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.29499835140366715,
+     51.06199262732318
+    ]
+   },
+   "properties": {
+    "cdo": "C26",
+    "name": "Horsham",
+    "id": "E14000753"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.4581016657253791,
+     54.8512975610893
+    ]
+   },
+   "properties": {
+    "cdo": "C27",
+    "name": "Houghton and Sunderland South",
+    "id": "E14000754"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.19749196293673102,
+     50.84817533149107
+    ]
+   },
+   "properties": {
+    "cdo": "C28",
+    "name": "Hove",
+    "id": "E14000755"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.7592549094130665,
+     53.65276495171255
+    ]
+   },
+   "properties": {
+    "cdo": "C29",
+    "name": "Huddersfield",
+    "id": "E14000756"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.23229285246792797,
+     52.28359547786322
+    ]
+   },
+   "properties": {
+    "cdo": "C30",
+    "name": "Huntingdon",
+    "id": "E14000757"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.379241162002191,
+     53.750100540156794
+    ]
+   },
+   "properties": {
+    "cdo": "C31",
+    "name": "Hyndburn",
+    "id": "E14000758"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.05040582900859865,
+     51.59857048514758
+    ]
+   },
+   "properties": {
+    "cdo": "C32",
+    "name": "Ilford North",
+    "id": "E14000759"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.09855101515029938,
+     51.56304677185272
+    ]
+   },
+   "properties": {
+    "cdo": "C33",
+    "name": "Ilford South",
+    "id": "E14000760"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.1979630772404593,
+     52.05099381908663
+    ]
+   },
+   "properties": {
+    "cdo": "C34",
+    "name": "Ipswich",
+    "id": "E14000761"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "C35",
+    "name": "Isle of Wight",
+    "id": "E14000762"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.12770162143158373,
+     51.56079406240299
+    ]
+   },
+   "properties": {
+    "cdo": "C36",
+    "name": "Islington North",
+    "id": "E14000763"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.10950228866626402,
+     51.538176298377685
+    ]
+   },
+   "properties": {
+    "cdo": "C37",
+    "name": "Islington South and Finsbury",
+    "id": "E14000764"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.4769486186219216,
+     54.95478782891493
+    ]
+   },
+   "properties": {
+    "cdo": "C38",
+    "name": "Jarrow",
+    "id": "E14000765"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.9262947908469892,
+     53.87742945429306
+    ]
+   },
+   "properties": {
+    "cdo": "C39",
+    "name": "Keighley",
+    "id": "E14000766"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.3374524615046623,
+     52.241708672370464
+    ]
+   },
+   "properties": {
+    "cdo": "C40",
+    "name": "Kenilworth and Southam",
+    "id": "E14000767"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.2071018450423267,
+     51.508726849522176
+    ]
+   },
+   "properties": {
+    "cdo": "C41",
+    "name": "Kensington",
+    "id": "E14000768"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8156370005453172,
+     52.43768940424981
+    ]
+   },
+   "properties": {
+    "cdo": "C42",
+    "name": "Kettering",
+    "id": "E14000769"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.2903554083593895,
+     51.37804118506895
+    ]
+   },
+   "properties": {
+    "cdo": "C43",
+    "name": "Kingston and Surbiton",
+    "id": "E14000770"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.2916444361273366,
+     53.76283520235188
+    ]
+   },
+   "properties": {
+    "cdo": "C44",
+    "name": "Kingston upon Hull East",
+    "id": "E14000771"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "C45",
+    "name": "Kingston upon Hull North",
+    "id": "E14000772"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.3874338341165305,
+     53.7405277056407
+    ]
+   },
+   "properties": {
+    "cdo": "C46",
+    "name": "Kingston upon Hull West and Hessle",
+    "id": "E14000773"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.473893026319176,
+     51.45282206595441
+    ]
+   },
+   "properties": {
+    "cdo": "C47",
+    "name": "Kingswood",
+    "id": "E14000774"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.851682862796612,
+     53.449478725635636
+    ]
+   },
+   "properties": {
+    "cdo": "C48",
+    "name": "Knowsley",
+    "id": "E14000775"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "C49",
+    "name": "Lancaster and Fleetwood",
+    "id": "E14000776"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.5366593288944963,
+     53.77830012076632
+    ]
+   },
+   "properties": {
+    "cdo": "C50",
+    "name": "Leeds Central",
+    "id": "E14000777"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.4596782754194804,
+     53.80746254820869
+    ]
+   },
+   "properties": {
+    "cdo": "C51",
+    "name": "Leeds East",
+    "id": "E14000778"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.5361224920125773,
+     53.84891368351413
+    ]
+   },
+   "properties": {
+    "cdo": "C52",
+    "name": "Leeds North East",
+    "id": "E14000779"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.631810531269749,
+     53.87661057695326
+    ]
+   },
+   "properties": {
+    "cdo": "C53",
+    "name": "Leeds North West",
+    "id": "E14000780"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.6150840959740018,
+     53.79996087413079
+    ]
+   },
+   "properties": {
+    "cdo": "C54",
+    "name": "Leeds West",
+    "id": "E14000781"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.0865328903417946,
+     52.64692654362421
+    ]
+   },
+   "properties": {
+    "cdo": "C55",
+    "name": "Leicester East",
+    "id": "E14000782"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.1282908784911327,
+     52.61286509650459
+    ]
+   },
+   "properties": {
+    "cdo": "C56",
+    "name": "Leicester South",
+    "id": "E14000783"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.162458790119273,
+     52.64902540814603
+    ]
+   },
+   "properties": {
+    "cdo": "C57",
+    "name": "Leicester West",
+    "id": "E14000784"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.5133047698723163,
+     53.49141144782279
+    ]
+   },
+   "properties": {
+    "cdo": "C58",
+    "name": "Leigh",
+    "id": "E14000785"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "C59",
+    "name": "Lewes",
+    "id": "E14000786"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.001525969424051216,
+     51.442155806653766
+    ]
+   },
+   "properties": {
+    "cdo": "C60",
+    "name": "Lewisham East",
+    "id": "E14000787"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.054779635815154076,
+     51.424028401200374
+    ]
+   },
+   "properties": {
+    "cdo": "C61",
+    "name": "Lewisham West and Penge",
+    "id": "E14000788"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.03136590882978973,
+     51.46637373501198
+    ]
+   },
+   "properties": {
+    "cdo": "C62",
+    "name": "Lewisham, Deptford",
+    "id": "E14000789"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.013339110179272034,
+     51.56848582270504
+    ]
+   },
+   "properties": {
+    "cdo": "C63",
+    "name": "Leyton and Wanstead",
+    "id": "E14000790"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.833621654783015,
+     52.75793377128848
+    ]
+   },
+   "properties": {
+    "cdo": "C64",
+    "name": "Lichfield",
+    "id": "E14000791"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.5621028205305596,
+     53.21641180358347
+    ]
+   },
+   "properties": {
+    "cdo": "C65",
+    "name": "Lincoln",
+    "id": "E14000792"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.9657176754657635,
+     53.400279075001166
+    ]
+   },
+   "properties": {
+    "cdo": "C66",
+    "name": "Liverpool, Riverside",
+    "id": "E14000793"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.950373249237537,
+     53.44295762956205
+    ]
+   },
+   "properties": {
+    "cdo": "C67",
+    "name": "Liverpool, Walton",
+    "id": "E14000794"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.916888693028952,
+     53.399617501111344
+    ]
+   },
+   "properties": {
+    "cdo": "C68",
+    "name": "Liverpool, Wavertree",
+    "id": "E14000795"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.9015343631204096,
+     53.43594225183836
+    ]
+   },
+   "properties": {
+    "cdo": "C69",
+    "name": "Liverpool, West Derby",
+    "id": "E14000796"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.1774362065447102,
+     52.77132282424439
+    ]
+   },
+   "properties": {
+    "cdo": "C70",
+    "name": "Loughborough",
+    "id": "E14000797"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "C71",
+    "name": "Louth and Horncastle",
+    "id": "E14000798"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.696540138366364,
+     52.485934754870684
+    ]
+   },
+   "properties": {
+    "cdo": "C72",
+    "name": "Ludlow",
+    "id": "E14000799"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.44643306185531606,
+     51.9079004076812
+    ]
+   },
+   "properties": {
+    "cdo": "C73",
+    "name": "Luton North",
+    "id": "E14000800"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.4123023977476539,
+     51.870663871640176
+    ]
+   },
+   "properties": {
+    "cdo": "C74",
+    "name": "Luton South",
+    "id": "E14000801"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.1197350142503684,
+     53.26173854632415
+    ]
+   },
+   "properties": {
+    "cdo": "C75",
+    "name": "Macclesfield",
+    "id": "E14000802"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.7923342996314064,
+     51.50017287715464
+    ]
+   },
+   "properties": {
+    "cdo": "C76",
+    "name": "Maidenhead",
+    "id": "E14000803"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.5154795135105092,
+     51.1679094599477
+    ]
+   },
+   "properties": {
+    "cdo": "C77",
+    "name": "Maidstone and The Weald",
+    "id": "E14000804"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.6311987266662538,
+     53.51689912100468
+    ]
+   },
+   "properties": {
+    "cdo": "C78",
+    "name": "Makerfield",
+    "id": "E14000805"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "C79",
+    "name": "Maldon",
+    "id": "E14000806"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.207914397605121,
+     53.48187384902384
+    ]
+   },
+   "properties": {
+    "cdo": "C80",
+    "name": "Manchester Central",
+    "id": "E14000807"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.2033268101388996,
+     53.45185067517218
+    ]
+   },
+   "properties": {
+    "cdo": "C81",
+    "name": "Manchester, Gorton",
+    "id": "E14000808"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.2251127999740365,
+     53.425744196494875
+    ]
+   },
+   "properties": {
+    "cdo": "C82",
+    "name": "Manchester, Withington",
+    "id": "E14000809"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.1773463066378174,
+     53.175197469838835
+    ]
+   },
+   "properties": {
+    "cdo": "C83",
+    "name": "Mansfield",
+    "id": "E14000810"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.1765414287581455,
+     50.97655588159857
+    ]
+   },
+   "properties": {
+    "cdo": "C84",
+    "name": "Meon Valley",
+    "id": "E14000811"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.7113252871319762,
+     52.41162330725113
+    ]
+   },
+   "properties": {
+    "cdo": "C85",
+    "name": "Meriden",
+    "id": "E14000812"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.48566068359044645,
+     52.02994552343929
+    ]
+   },
+   "properties": {
+    "cdo": "C86",
+    "name": "Mid Bedfordshire",
+    "id": "E14000813"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.4272774638128851,
+     52.9647703188602
+    ]
+   },
+   "properties": {
+    "cdo": "C87",
+    "name": "Mid Derbyshire",
+    "id": "E14000814"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "C88",
+    "name": "Mid Dorset and North Poole",
+    "id": "E14000815"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.9301042126978362,
+     52.64921233393339
+    ]
+   },
+   "properties": {
+    "cdo": "C89",
+    "name": "Mid Norfolk",
+    "id": "E14000816"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.1344052335907479,
+     51.02649309769194
+    ]
+   },
+   "properties": {
+    "cdo": "C90",
+    "name": "Mid Sussex",
+    "id": "E14000817"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.0988345231310297,
+     52.183989194231046
+    ]
+   },
+   "properties": {
+    "cdo": "C91",
+    "name": "Mid Worcestershire",
+    "id": "E14000818"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "C92",
+    "name": "Middlesbrough",
+    "id": "E14000819"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9293264897506714,
+     54.5385792684888
+    ]
+   },
+   "properties": {
+    "cdo": "C93",
+    "name": "Middlesbrough South and East Cleveland",
+    "id": "E14000820"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.7289935672267239,
+     52.108228401364556
+    ]
+   },
+   "properties": {
+    "cdo": "C94",
+    "name": "Milton Keynes North",
+    "id": "E14000821"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.7464931405986075,
+     52.01384612273252
+    ]
+   },
+   "properties": {
+    "cdo": "C95",
+    "name": "Milton Keynes South",
+    "id": "E14000822"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.1686588732856916,
+     51.40223875630946
+    ]
+   },
+   "properties": {
+    "cdo": "C96",
+    "name": "Mitcham and Morden",
+    "id": "E14000823"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.3628909762332585,
+     51.218352608253674
+    ]
+   },
+   "properties": {
+    "cdo": "C97",
+    "name": "Mole Valley",
+    "id": "E14000824"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "C98",
+    "name": "Morecambe and Lunesdale",
+    "id": "E14000825"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.5549660361738475,
+     53.724082403059995
+    ]
+   },
+   "properties": {
+    "cdo": "C99",
+    "name": "Morley and Outwood",
+    "id": "E14000826"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "D01",
+    "name": "New Forest East",
+    "id": "E14000827"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.7461689080455827,
+     50.868437111764464
+    ]
+   },
+   "properties": {
+    "cdo": "D02",
+    "name": "New Forest West",
+    "id": "E14000828"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "D03",
+    "name": "Newark",
+    "id": "E14000829"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.346585546107512,
+     51.454743813524644
+    ]
+   },
+   "properties": {
+    "cdo": "D04",
+    "name": "Newbury",
+    "id": "E14000830"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.6497782217851162,
+     54.98399407206093
+    ]
+   },
+   "properties": {
+    "cdo": "D05",
+    "name": "Newcastle upon Tyne Central",
+    "id": "E14000831"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.5754085064212864,
+     54.984405898150165
+    ]
+   },
+   "properties": {
+    "cdo": "D06",
+    "name": "Newcastle upon Tyne East",
+    "id": "E14000832"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.6835013591450743,
+     55.02288507881227
+    ]
+   },
+   "properties": {
+    "cdo": "D07",
+    "name": "Newcastle upon Tyne North",
+    "id": "E14000833"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.2855336034701628,
+     53.03188380652294
+    ]
+   },
+   "properties": {
+    "cdo": "D08",
+    "name": "Newcastle-under-Lyme",
+    "id": "E14000834"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.583603172142701,
+     50.55825137902252
+    ]
+   },
+   "properties": {
+    "cdo": "D09",
+    "name": "Newton Abbot",
+    "id": "E14000835"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.3311417767817204,
+     53.69826306618875
+    ]
+   },
+   "properties": {
+    "cdo": "D10",
+    "name": "Normanton, Pontefract and Castleford",
+    "id": "E14000836"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "D11",
+    "name": "North Cornwall",
+    "id": "E14000837"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.910920250283028,
+     51.069109583715786
+    ]
+   },
+   "properties": {
+    "cdo": "D12",
+    "name": "North Devon",
+    "id": "E14000838"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.163819897973738,
+     50.90275987475903
+    ]
+   },
+   "properties": {
+    "cdo": "D13",
+    "name": "North Dorset",
+    "id": "E14000839"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.6267697000091792,
+     54.86046337207825
+    ]
+   },
+   "properties": {
+    "cdo": "D14",
+    "name": "North Durham",
+    "id": "E14000840"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.3968835534304181,
+     52.17366937642554
+    ]
+   },
+   "properties": {
+    "cdo": "D15",
+    "name": "North East Bedfordshire",
+    "id": "E14000841"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "D16",
+    "name": "North East Cambridgeshire",
+    "id": "E14000842"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.4881768734443395,
+     53.23084935213499
+    ]
+   },
+   "properties": {
+    "cdo": "D17",
+    "name": "North East Derbyshire",
+    "id": "E14000843"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8388648596648924,
+     51.25872958074564
+    ]
+   },
+   "properties": {
+    "cdo": "D18",
+    "name": "North East Hampshire",
+    "id": "E14000844"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.05705122506590599,
+     51.933985602069484
+    ]
+   },
+   "properties": {
+    "cdo": "D19",
+    "name": "North East Hertfordshire",
+    "id": "E14000845"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.493216038414489,
+     51.35631854156695
+    ]
+   },
+   "properties": {
+    "cdo": "D20",
+    "name": "North East Somerset",
+    "id": "E14000846"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.712614639828114,
+     52.16708716575985
+    ]
+   },
+   "properties": {
+    "cdo": "D21",
+    "name": "North Herefordshire",
+    "id": "E14000847"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "D22",
+    "name": "North Norfolk",
+    "id": "E14000848"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.0358367302504505,
+     52.865874054527396
+    ]
+   },
+   "properties": {
+    "cdo": "D23",
+    "name": "North Shropshire",
+    "id": "E14000849"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.7440894540694245,
+     51.42012838013697
+    ]
+   },
+   "properties": {
+    "cdo": "D24",
+    "name": "North Somerset",
+    "id": "E14000850"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.7508770705568046,
+     51.615985481256715
+    ]
+   },
+   "properties": {
+    "cdo": "D25",
+    "name": "North Swindon",
+    "id": "E14000851"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "D26",
+    "name": "North Thanet",
+    "id": "E14000852"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.5526130752744154,
+     55.022735544044785
+    ]
+   },
+   "properties": {
+    "cdo": "D27",
+    "name": "North Tyneside",
+    "id": "E14000853"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.6625743780277746,
+     52.56135006577688
+    ]
+   },
+   "properties": {
+    "cdo": "D28",
+    "name": "North Warwickshire",
+    "id": "E14000854"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "D29",
+    "name": "North West Cambridgeshire",
+    "id": "E14000855"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.9509906115803393,
+     54.77290710806455
+    ]
+   },
+   "properties": {
+    "cdo": "D30",
+    "name": "North West Durham",
+    "id": "E14000856"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.3739251564919572,
+     51.26377718740142
+    ]
+   },
+   "properties": {
+    "cdo": "D31",
+    "name": "North West Hampshire",
+    "id": "E14000857"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.4050012269656105,
+     52.75315667621656
+    ]
+   },
+   "properties": {
+    "cdo": "D32",
+    "name": "North West Leicestershire",
+    "id": "E14000858"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "D33",
+    "name": "North West Norfolk",
+    "id": "E14000859"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.0564616464225787,
+     51.54388803005754
+    ]
+   },
+   "properties": {
+    "cdo": "D34",
+    "name": "North Wiltshire",
+    "id": "E14000860"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8697778562830791,
+     52.2645482828903
+    ]
+   },
+   "properties": {
+    "cdo": "D35",
+    "name": "Northampton North",
+    "id": "E14000861"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9378423378270143,
+     52.244860370000744
+    ]
+   },
+   "properties": {
+    "cdo": "D36",
+    "name": "Northampton South",
+    "id": "E14000862"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "D37",
+    "name": "Norwich North",
+    "id": "E14000863"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "D38",
+    "name": "Norwich South",
+    "id": "E14000864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.1526001411708287,
+     52.97015659528442
+    ]
+   },
+   "properties": {
+    "cdo": "D39",
+    "name": "Nottingham East",
+    "id": "E14000865"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.195236178616369,
+     52.98450165213053
+    ]
+   },
+   "properties": {
+    "cdo": "D40",
+    "name": "Nottingham North",
+    "id": "E14000866"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.1839714135951027,
+     52.93645256512766
+    ]
+   },
+   "properties": {
+    "cdo": "D41",
+    "name": "Nottingham South",
+    "id": "E14000867"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.5184164701500493,
+     52.52311421889074
+    ]
+   },
+   "properties": {
+    "cdo": "D42",
+    "name": "Nuneaton",
+    "id": "E14000868"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.11853544708156022,
+     51.437701713557026
+    ]
+   },
+   "properties": {
+    "cdo": "D43",
+    "name": "Old Bexley and Sidcup",
+    "id": "E14000869"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.0180366742742217,
+     53.56420567378407
+    ]
+   },
+   "properties": {
+    "cdo": "D44",
+    "name": "Oldham East and Saddleworth",
+    "id": "E14000870"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.1390242837057065,
+     53.546075297845235
+    ]
+   },
+   "properties": {
+    "cdo": "D45",
+    "name": "Oldham West and Royton",
+    "id": "E14000871"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.08005611350536308,
+     51.349732401538205
+    ]
+   },
+   "properties": {
+    "cdo": "D46",
+    "name": "Orpington",
+    "id": "E14000872"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.223476371238504,
+     51.74629627325408
+    ]
+   },
+   "properties": {
+    "cdo": "D47",
+    "name": "Oxford East",
+    "id": "E14000873"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.307037833329511,
+     51.73755734403929
+    ]
+   },
+   "properties": {
+    "cdo": "D48",
+    "name": "Oxford West and Abingdon",
+    "id": "E14000874"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.1849325189589788,
+     53.8654983054308
+    ]
+   },
+   "properties": {
+    "cdo": "D49",
+    "name": "Pendle",
+    "id": "E14000875"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.6279605800593822,
+     53.512280706628545
+    ]
+   },
+   "properties": {
+    "cdo": "D50",
+    "name": "Penistone and Stocksbridge",
+    "id": "E14000876"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "D51",
+    "name": "Penrith and The Border",
+    "id": "E14000877"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.16070174276778526,
+     52.617466724426826
+    ]
+   },
+   "properties": {
+    "cdo": "D52",
+    "name": "Peterborough",
+    "id": "E14000878"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -4.119378948540408,
+     50.415492269860536
+    ]
+   },
+   "properties": {
+    "cdo": "D53",
+    "name": "Plymouth, Moor View",
+    "id": "E14000879"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "D54",
+    "name": "Plymouth, Sutton and Devonport",
+    "id": "E14000880"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "D55",
+    "name": "Poole",
+    "id": "E14000881"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.013562149740873136,
+     51.50790101303625
+    ]
+   },
+   "properties": {
+    "cdo": "D56",
+    "name": "Poplar and Limehouse",
+    "id": "E14000882"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "D57",
+    "name": "Portsmouth North",
+    "id": "E14000883"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "D58",
+    "name": "Portsmouth South",
+    "id": "E14000884"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "D59",
+    "name": "Preston",
+    "id": "E14000885"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.6918078590143013,
+     53.83979475752113
+    ]
+   },
+   "properties": {
+    "cdo": "D60",
+    "name": "Pudsey",
+    "id": "E14000886"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.224576431425099,
+     51.45269287671559
+    ]
+   },
+   "properties": {
+    "cdo": "D61",
+    "name": "Putney",
+    "id": "E14000887"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "D62",
+    "name": "Rayleigh and Wickford",
+    "id": "E14000888"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9710423571783855,
+     51.456217499168076
+    ]
+   },
+   "properties": {
+    "cdo": "D63",
+    "name": "Reading East",
+    "id": "E14000889"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.0441665401442324,
+     51.455523437277385
+    ]
+   },
+   "properties": {
+    "cdo": "D64",
+    "name": "Reading West",
+    "id": "E14000890"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "D65",
+    "name": "Redcar",
+    "id": "E14000891"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.9849147630876165,
+     52.242415953151934
+    ]
+   },
+   "properties": {
+    "cdo": "D66",
+    "name": "Redditch",
+    "id": "E14000892"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.19335947212947618,
+     51.25752058097066
+    ]
+   },
+   "properties": {
+    "cdo": "D67",
+    "name": "Reigate",
+    "id": "E14000893"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.4595649521125407,
+     53.894769904266894
+    ]
+   },
+   "properties": {
+    "cdo": "D68",
+    "name": "Ribble Valley",
+    "id": "E14000894"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.8131116671396352,
+     54.35742610034353
+    ]
+   },
+   "properties": {
+    "cdo": "D69",
+    "name": "Richmond (Yorks)",
+    "id": "E14000895"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "D70",
+    "name": "Richmond Park",
+    "id": "E14000896"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.1202757548808076,
+     53.63399753035286
+    ]
+   },
+   "properties": {
+    "cdo": "D71",
+    "name": "Rochdale",
+    "id": "E14000897"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "D72",
+    "name": "Rochester and Strood",
+    "id": "E14000898"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "D73",
+    "name": "Rochford and Southend East",
+    "id": "E14000899"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.17472021075182867,
+     51.589242282726
+    ]
+   },
+   "properties": {
+    "cdo": "D74",
+    "name": "Romford",
+    "id": "E14000900"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "D75",
+    "name": "Romsey and Southampton North",
+    "id": "E14000901"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.4729983089130196,
+     53.68476351362426
+    ]
+   },
+   "properties": {
+    "cdo": "D76",
+    "name": "Rossendale and Darwen",
+    "id": "E14000902"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.2458900441679706,
+     53.36932657906426
+    ]
+   },
+   "properties": {
+    "cdo": "D77",
+    "name": "Rother Valley",
+    "id": "E14000903"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.363521199916891,
+     53.423630831510934
+    ]
+   },
+   "properties": {
+    "cdo": "D78",
+    "name": "Rotherham",
+    "id": "E14000904"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.3347025449942744,
+     52.423901720228116
+    ]
+   },
+   "properties": {
+    "cdo": "D79",
+    "name": "Rugby",
+    "id": "E14000905"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.43820684545447913,
+     51.593054319741384
+    ]
+   },
+   "properties": {
+    "cdo": "D80",
+    "name": "Ruislip, Northwood and Pinner",
+    "id": "E14000906"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.5260866197873588,
+     51.38783639730071
+    ]
+   },
+   "properties": {
+    "cdo": "D81",
+    "name": "Runnymede and Weybridge",
+    "id": "E14000907"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.074806396367948,
+     52.88798582719727
+    ]
+   },
+   "properties": {
+    "cdo": "D82",
+    "name": "Rushcliffe",
+    "id": "E14000908"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.7926258440020435,
+     52.70620034154346
+    ]
+   },
+   "properties": {
+    "cdo": "D83",
+    "name": "Rutland and Melton",
+    "id": "E14000909"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.3102833327537698,
+     51.90359567585962
+    ]
+   },
+   "properties": {
+    "cdo": "D84",
+    "name": "Saffron Walden",
+    "id": "E14000910"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.3129501939336765,
+     53.49926002537936
+    ]
+   },
+   "properties": {
+    "cdo": "D85",
+    "name": "Salford and Eccles",
+    "id": "E14000911"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.814293291562568,
+     51.09103263574858
+    ]
+   },
+   "properties": {
+    "cdo": "D86",
+    "name": "Salisbury",
+    "id": "E14000912"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "D87",
+    "name": "Scarborough and Whitby",
+    "id": "E14000913"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.5888820120547543,
+     53.52874051710317
+    ]
+   },
+   "properties": {
+    "cdo": "D88",
+    "name": "Scunthorpe",
+    "id": "E14000914"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.5096949866725038,
+     54.61209493821993
+    ]
+   },
+   "properties": {
+    "cdo": "D89",
+    "name": "Sedgefield",
+    "id": "E14000915"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.044594865612957,
+     53.52852026410036
+    ]
+   },
+   "properties": {
+    "cdo": "D90",
+    "name": "Sefton Central",
+    "id": "E14000916"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "D91",
+    "name": "Selby and Ainsty",
+    "id": "E14000917"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.18178940342048255,
+     51.31022592640705
+    ]
+   },
+   "properties": {
+    "cdo": "D92",
+    "name": "Sevenoaks",
+    "id": "E14000918"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.4738697212057286,
+     53.37628450209555
+    ]
+   },
+   "properties": {
+    "cdo": "D93",
+    "name": "Sheffield Central",
+    "id": "E14000919"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.385043166386205,
+     53.363951919121085
+    ]
+   },
+   "properties": {
+    "cdo": "D94",
+    "name": "Sheffield South East",
+    "id": "E14000920"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.4515104945534991,
+     53.41389541595697
+    ]
+   },
+   "properties": {
+    "cdo": "D95",
+    "name": "Sheffield, Brightside and Hillsborough",
+    "id": "E14000921"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.5897812400478235,
+     53.38193299094171
+    ]
+   },
+   "properties": {
+    "cdo": "D96",
+    "name": "Sheffield, Hallam",
+    "id": "E14000922"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.45714002840644,
+     53.345757893217396
+    ]
+   },
+   "properties": {
+    "cdo": "D97",
+    "name": "Sheffield, Heeley",
+    "id": "E14000923"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.0808292551848595,
+     53.117565131507675
+    ]
+   },
+   "properties": {
+    "cdo": "D98",
+    "name": "Sherwood",
+    "id": "E14000924"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.8231028508839322,
+     53.85024378763475
+    ]
+   },
+   "properties": {
+    "cdo": "D99",
+    "name": "Shipley",
+    "id": "E14000925"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.7801796332738187,
+     52.66923533165649
+    ]
+   },
+   "properties": {
+    "cdo": "E01",
+    "name": "Shrewsbury and Atcham",
+    "id": "E14000926"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "E02",
+    "name": "Sittingbourne and Sheppey",
+    "id": "E14000927"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.9462355460394676,
+     54.05586091873327
+    ]
+   },
+   "properties": {
+    "cdo": "E03",
+    "name": "Skipton and Ripon",
+    "id": "E14000928"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.4866469277185165,
+     53.05955614920624
+    ]
+   },
+   "properties": {
+    "cdo": "E04",
+    "name": "Sleaford and North Hykeham",
+    "id": "E14000929"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.6358613234040866,
+     51.51460106267676
+    ]
+   },
+   "properties": {
+    "cdo": "E05",
+    "name": "Slough",
+    "id": "E14000930"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.7970827166277756,
+     52.41972182546335
+    ]
+   },
+   "properties": {
+    "cdo": "E06",
+    "name": "Solihull",
+    "id": "E14000931"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.5547101244458847,
+     51.10175771699096
+    ]
+   },
+   "properties": {
+    "cdo": "E07",
+    "name": "Somerton and Frome",
+    "id": "E14000932"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "E08",
+    "name": "South Basildon and East Thurrock",
+    "id": "E14000933"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.012219828083464857,
+     52.164183547859636
+    ]
+   },
+   "properties": {
+    "cdo": "E09",
+    "name": "South Cambridgeshire",
+    "id": "E14000934"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.5345169080666174,
+     52.82233300838252
+    ]
+   },
+   "properties": {
+    "cdo": "E10",
+    "name": "South Derbyshire",
+    "id": "E14000935"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "E11",
+    "name": "South Dorset",
+    "id": "E14000936"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.2548474648906245,
+     52.23816526430275
+    ]
+   },
+   "properties": {
+    "cdo": "E12",
+    "name": "South East Cambridgeshire",
+    "id": "E14000937"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "E13",
+    "name": "South East Cornwall",
+    "id": "E14000938"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "E14",
+    "name": "South Holland and The Deepings",
+    "id": "E14000939"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.1992626919638165,
+     52.50973413736749
+    ]
+   },
+   "properties": {
+    "cdo": "E15",
+    "name": "South Leicestershire",
+    "id": "E14000940"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "E16",
+    "name": "South Norfolk",
+    "id": "E14000941"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.0413972753318885,
+     52.119369377294674
+    ]
+   },
+   "properties": {
+    "cdo": "E17",
+    "name": "South Northamptonshire",
+    "id": "E14000942"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "E18",
+    "name": "South Ribble",
+    "id": "E14000943"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.4256462493281776,
+     54.9741231733224
+    ]
+   },
+   "properties": {
+    "cdo": "E19",
+    "name": "South Shields",
+    "id": "E14000944"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.1805692426136773,
+     52.57913997299089
+    ]
+   },
+   "properties": {
+    "cdo": "E20",
+    "name": "South Staffordshire",
+    "id": "E14000945"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "E21",
+    "name": "South Suffolk",
+    "id": "E14000946"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.7135300511021783,
+     51.532988951336385
+    ]
+   },
+   "properties": {
+    "cdo": "E22",
+    "name": "South Swindon",
+    "id": "E14000947"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "E23",
+    "name": "South Thanet",
+    "id": "E14000948"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.5770400445836145,
+     51.89590677845631
+    ]
+   },
+   "properties": {
+    "cdo": "E24",
+    "name": "South West Bedfordshire",
+    "id": "E14000949"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "E25",
+    "name": "South West Devon",
+    "id": "E14000950"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.5530303494905521,
+     51.72512062188064
+    ]
+   },
+   "properties": {
+    "cdo": "E26",
+    "name": "South West Hertfordshire",
+    "id": "E14000951"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "E27",
+    "name": "South West Norfolk",
+    "id": "E14000952"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.68371523183737,
+     51.152347594690674
+    ]
+   },
+   "properties": {
+    "cdo": "E28",
+    "name": "South West Surrey",
+    "id": "E14000953"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.1350012906548326,
+     51.149656208416815
+    ]
+   },
+   "properties": {
+    "cdo": "E29",
+    "name": "South West Wiltshire",
+    "id": "E14000954"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "E30",
+    "name": "Southampton, Itchen",
+    "id": "E14000955"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.454060099760731,
+     50.925246364914216
+    ]
+   },
+   "properties": {
+    "cdo": "E31",
+    "name": "Southampton, Test",
+    "id": "E14000956"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "E32",
+    "name": "Southend West",
+    "id": "E14000957"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "E33",
+    "name": "Southport",
+    "id": "E14000958"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.4680135162632783,
+     51.4248031394386
+    ]
+   },
+   "properties": {
+    "cdo": "E34",
+    "name": "Spelthorne",
+    "id": "E14000959"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.3113330690143115,
+     51.73380974558359
+    ]
+   },
+   "properties": {
+    "cdo": "E35",
+    "name": "St Albans",
+    "id": "E14000960"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "E36",
+    "name": "St Austell and Newquay",
+    "id": "E14000961"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.7008540786874047,
+     53.482905221566185
+    ]
+   },
+   "properties": {
+    "cdo": "E37",
+    "name": "St Helens North",
+    "id": "E14000962"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.741052511271367,
+     53.425967282323896
+    ]
+   },
+   "properties": {
+    "cdo": "E38",
+    "name": "St Helens South and Whiston",
+    "id": "E14000963"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "E39",
+    "name": "St Ives",
+    "id": "E14000964"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.1286166705698446,
+     52.7689684762585
+    ]
+   },
+   "properties": {
+    "cdo": "E40",
+    "name": "Stafford",
+    "id": "E14000965"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.9820213466069818,
+     53.094662636239946
+    ]
+   },
+   "properties": {
+    "cdo": "E41",
+    "name": "Staffordshire Moorlands",
+    "id": "E14000966"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.0324612240698956,
+     53.476846670424656
+    ]
+   },
+   "properties": {
+    "cdo": "E42",
+    "name": "Stalybridge and Hyde",
+    "id": "E14000967"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.19411176165565847,
+     51.88174214964222
+    ]
+   },
+   "properties": {
+    "cdo": "E43",
+    "name": "Stevenage",
+    "id": "E14000968"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.1869760827648146,
+     53.410869863549834
+    ]
+   },
+   "properties": {
+    "cdo": "E44",
+    "name": "Stockport",
+    "id": "E14000969"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "E45",
+    "name": "Stockton North",
+    "id": "E14000970"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "E46",
+    "name": "Stockton South",
+    "id": "E14000971"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.160238969843732,
+     53.02305306792419
+    ]
+   },
+   "properties": {
+    "cdo": "E47",
+    "name": "Stoke-on-Trent Central",
+    "id": "E14000972"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.2044084379652373,
+     53.06478466945438
+    ]
+   },
+   "properties": {
+    "cdo": "E48",
+    "name": "Stoke-on-Trent North",
+    "id": "E14000973"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.119279327386755,
+     52.9772684715693
+    ]
+   },
+   "properties": {
+    "cdo": "E49",
+    "name": "Stoke-on-Trent South",
+    "id": "E14000974"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.313680793082174,
+     52.87219357089147
+    ]
+   },
+   "properties": {
+    "cdo": "E50",
+    "name": "Stone",
+    "id": "E14000975"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.123513653588108,
+     52.45646928671472
+    ]
+   },
+   "properties": {
+    "cdo": "E51",
+    "name": "Stourbridge",
+    "id": "E14000976"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.7128770345512545,
+     52.16830658998876
+    ]
+   },
+   "properties": {
+    "cdo": "E52",
+    "name": "Stratford-on-Avon",
+    "id": "E14000977"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.127862244086177,
+     51.436503381759614
+    ]
+   },
+   "properties": {
+    "cdo": "E53",
+    "name": "Streatham",
+    "id": "E14000978"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.352474564686603,
+     53.4463498614467
+    ]
+   },
+   "properties": {
+    "cdo": "E54",
+    "name": "Stretford and Urmston",
+    "id": "E14000979"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.301716197655969,
+     51.745644079655946
+    ]
+   },
+   "properties": {
+    "cdo": "E55",
+    "name": "Stroud",
+    "id": "E14000980"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "E56",
+    "name": "Suffolk Coastal",
+    "id": "E14000981"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "E57",
+    "name": "Sunderland Central",
+    "id": "E14000982"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.6765087450286857,
+     51.331858308781214
+    ]
+   },
+   "properties": {
+    "cdo": "E58",
+    "name": "Surrey Heath",
+    "id": "E14000983"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.2088711756628495,
+     51.36304500175835
+    ]
+   },
+   "properties": {
+    "cdo": "E59",
+    "name": "Sutton and Cheam",
+    "id": "E14000984"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.8132168808767568,
+     52.561739102369046
+    ]
+   },
+   "properties": {
+    "cdo": "E60",
+    "name": "Sutton Coldfield",
+    "id": "E14000985"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.6952369425744809,
+     52.65847679405874
+    ]
+   },
+   "properties": {
+    "cdo": "E61",
+    "name": "Tamworth",
+    "id": "E14000986"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.391724104453165,
+     53.29772850792335
+    ]
+   },
+   "properties": {
+    "cdo": "E62",
+    "name": "Tatton",
+    "id": "E14000987"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "E63",
+    "name": "Taunton Deane",
+    "id": "E14000988"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.4548905681071727,
+     52.6647614613879
+    ]
+   },
+   "properties": {
+    "cdo": "E64",
+    "name": "Telford",
+    "id": "E14000989"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.0602208576316596,
+     51.94843260105959
+    ]
+   },
+   "properties": {
+    "cdo": "E65",
+    "name": "Tewkesbury",
+    "id": "E14000990"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.9173893245843938,
+     51.80654555360532
+    ]
+   },
+   "properties": {
+    "cdo": "E66",
+    "name": "The Cotswolds",
+    "id": "E14000991"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.556082396936043,
+     52.7170811162683
+    ]
+   },
+   "properties": {
+    "cdo": "E67",
+    "name": "The Wrekin",
+    "id": "E14000992"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.852916137980108,
+     54.198431332031475
+    ]
+   },
+   "properties": {
+    "cdo": "E68",
+    "name": "Thirsk and Malton",
+    "id": "E14000993"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.4291485109503252,
+     51.55395197360951
+    ]
+   },
+   "properties": {
+    "cdo": "E69",
+    "name": "Thornbury and Yate",
+    "id": "E14000994"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.306379332215992,
+     51.49581711531386
+    ]
+   },
+   "properties": {
+    "cdo": "E70",
+    "name": "Thurrock",
+    "id": "E14000995"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.2629927725988206,
+     50.860890497685496
+    ]
+   },
+   "properties": {
+    "cdo": "E71",
+    "name": "Tiverton and Honiton",
+    "id": "E14000996"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.3636470906532141,
+     51.24183536723598
+    ]
+   },
+   "properties": {
+    "cdo": "E72",
+    "name": "Tonbridge and Malling",
+    "id": "E14000997"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.17258910499380933,
+     51.43855179185225
+    ]
+   },
+   "properties": {
+    "cdo": "E73",
+    "name": "Tooting",
+    "id": "E14000998"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.547073100030234,
+     50.46689565300483
+    ]
+   },
+   "properties": {
+    "cdo": "E74",
+    "name": "Torbay",
+    "id": "E14000999"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "E75",
+    "name": "Torridge and West Devon",
+    "id": "E14001000"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "E76",
+    "name": "Totnes",
+    "id": "E14001001"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.07834845884690832,
+     51.59113597348252
+    ]
+   },
+   "properties": {
+    "cdo": "E77",
+    "name": "Tottenham",
+    "id": "E14001002"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "E78",
+    "name": "Truro and Falmouth",
+    "id": "E14001003"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.38601550053886674,
+     51.12017389945149
+    ]
+   },
+   "properties": {
+    "cdo": "E79",
+    "name": "Tunbridge Wells",
+    "id": "E14001004"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "E80",
+    "name": "Twickenham",
+    "id": "E14001005"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.4805584660307738,
+     55.03490160494961
+    ]
+   },
+   "properties": {
+    "cdo": "E81",
+    "name": "Tynemouth",
+    "id": "E14001006"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.4598028172967708,
+     51.54302552963447
+    ]
+   },
+   "properties": {
+    "cdo": "E82",
+    "name": "Uxbridge and South Ruislip",
+    "id": "E14001007"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.12116983927925122,
+     51.47852187509054
+    ]
+   },
+   "properties": {
+    "cdo": "E83",
+    "name": "Vauxhall",
+    "id": "E14001008"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.5486799203781787,
+     53.6512387337785
+    ]
+   },
+   "properties": {
+    "cdo": "E84",
+    "name": "Wakefield",
+    "id": "E14001009"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.1120734323358037,
+     53.41402718988155
+    ]
+   },
+   "properties": {
+    "cdo": "E85",
+    "name": "Wallasey",
+    "id": "E14001010"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.022392793669469,
+     52.60537954857342
+    ]
+   },
+   "properties": {
+    "cdo": "E86",
+    "name": "Walsall North",
+    "id": "E14001011"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.977619487000342,
+     52.57356193779597
+    ]
+   },
+   "properties": {
+    "cdo": "E87",
+    "name": "Walsall South",
+    "id": "E14001012"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.027786111053996376,
+     51.58509461674045
+    ]
+   },
+   "properties": {
+    "cdo": "E88",
+    "name": "Walthamstow",
+    "id": "E14001013"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.6073373195646536,
+     55.165746466175165
+    ]
+   },
+   "properties": {
+    "cdo": "E89",
+    "name": "Wansbeck",
+    "id": "E14001014"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.42229385466178,
+     51.61506715272864
+    ]
+   },
+   "properties": {
+    "cdo": "E90",
+    "name": "Wantage",
+    "id": "E14001015"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.987696129009553,
+     52.486805980727375
+    ]
+   },
+   "properties": {
+    "cdo": "E91",
+    "name": "Warley",
+    "id": "E14001016"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.536636797264582,
+     53.432402966232075
+    ]
+   },
+   "properties": {
+    "cdo": "E92",
+    "name": "Warrington North",
+    "id": "E14001017"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "E93",
+    "name": "Warrington South",
+    "id": "E14001018"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.5836098990382639,
+     52.264668525828355
+    ]
+   },
+   "properties": {
+    "cdo": "E94",
+    "name": "Warwick and Leamington",
+    "id": "E14001019"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "E95",
+    "name": "Washington and Sunderland West",
+    "id": "E14001020"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.407254772644374,
+     51.67265601611416
+    ]
+   },
+   "properties": {
+    "cdo": "E96",
+    "name": "Watford",
+    "id": "E14001021"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "E97",
+    "name": "Waveney",
+    "id": "E14001022"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.12262514328050407,
+     50.98859046510764
+    ]
+   },
+   "properties": {
+    "cdo": "E98",
+    "name": "Wealden",
+    "id": "E14001023"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.650462445054025,
+     53.2759907898987
+    ]
+   },
+   "properties": {
+    "cdo": "E99",
+    "name": "Weaver Vale",
+    "id": "E14001024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.6692575268052897,
+     52.290738090253136
+    ]
+   },
+   "properties": {
+    "cdo": "F01",
+    "name": "Wellingborough",
+    "id": "E14001025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.737782140700556,
+     51.23056207490487
+    ]
+   },
+   "properties": {
+    "cdo": "F02",
+    "name": "Wells",
+    "id": "E14001026"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.2018201616082343,
+     51.775171082270596
+    ]
+   },
+   "properties": {
+    "cdo": "F03",
+    "name": "Welwyn Hatfield",
+    "id": "E14001027"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.3358715102662428,
+     53.48335265000251
+    ]
+   },
+   "properties": {
+    "cdo": "F04",
+    "name": "Wentworth and Dearne",
+    "id": "E14001028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.9774964207559098,
+     52.53593412035933
+    ]
+   },
+   "properties": {
+    "cdo": "F05",
+    "name": "West Bromwich East",
+    "id": "E14001029"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.0408214516796006,
+     52.530262698611054
+    ]
+   },
+   "properties": {
+    "cdo": "F06",
+    "name": "West Bromwich West",
+    "id": "E14001030"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.589341632666735,
+     50.790520648819715
+    ]
+   },
+   "properties": {
+    "cdo": "F07",
+    "name": "West Dorset",
+    "id": "E14001031"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.014345932964834664,
+     51.53071484688241
+    ]
+   },
+   "properties": {
+    "cdo": "F08",
+    "name": "West Ham",
+    "id": "E14001032"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.8668382773250425,
+     53.5732871814622
+    ]
+   },
+   "properties": {
+    "cdo": "F09",
+    "name": "West Lancashire",
+    "id": "E14001033"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.5978383585672007,
+     52.2943010443387
+    ]
+   },
+   "properties": {
+    "cdo": "F10",
+    "name": "West Suffolk",
+    "id": "E14001034"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.2939799247524424,
+     52.16075428354223
+    ]
+   },
+   "properties": {
+    "cdo": "F11",
+    "name": "West Worcestershire",
+    "id": "E14001035"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.18059081717994363,
+     51.52662462645049
+    ]
+   },
+   "properties": {
+    "cdo": "F12",
+    "name": "Westminster North",
+    "id": "E14001036"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "F13",
+    "name": "Westmorland and Lonsdale",
+    "id": "E14001037"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "F14",
+    "name": "Weston-Super-Mare",
+    "id": "E14001038"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.6433294028198833,
+     53.566780102485055
+    ]
+   },
+   "properties": {
+    "cdo": "F15",
+    "name": "Wigan",
+    "id": "E14001039"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.21734086121631657,
+     51.416900868018416
+    ]
+   },
+   "properties": {
+    "cdo": "F16",
+    "name": "Wimbledon",
+    "id": "E14001040"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.3402525224212478,
+     51.08074788555579
+    ]
+   },
+   "properties": {
+    "cdo": "F17",
+    "name": "Winchester",
+    "id": "E14001041"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.646016757232361,
+     51.4346999674628
+    ]
+   },
+   "properties": {
+    "cdo": "F18",
+    "name": "Windsor",
+    "id": "E14001042"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "F19",
+    "name": "Wirral South",
+    "id": "E14001043"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "F20",
+    "name": "Wirral West",
+    "id": "E14001044"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "F21",
+    "name": "Witham",
+    "id": "E14001045"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.5028370691354964,
+     51.840339785341556
+    ]
+   },
+   "properties": {
+    "cdo": "F22",
+    "name": "Witney",
+    "id": "E14001046"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.655006007013541,
+     51.29244233705519
+    ]
+   },
+   "properties": {
+    "cdo": "F23",
+    "name": "Woking",
+    "id": "E14001047"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9183831584754758,
+     51.40866303280379
+    ]
+   },
+   "properties": {
+    "cdo": "F24",
+    "name": "Wokingham",
+    "id": "E14001048"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.108778329839472,
+     52.611306083118286
+    ]
+   },
+   "properties": {
+    "cdo": "F25",
+    "name": "Wolverhampton North East",
+    "id": "E14001049"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.0942883635292877,
+     52.564655548196434
+    ]
+   },
+   "properties": {
+    "cdo": "F26",
+    "name": "Wolverhampton South East",
+    "id": "E14001050"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.1605576924972882,
+     52.58557031377771
+    ]
+   },
+   "properties": {
+    "cdo": "F27",
+    "name": "Wolverhampton South West",
+    "id": "E14001051"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.2103080875053105,
+     52.19651403069642
+    ]
+   },
+   "properties": {
+    "cdo": "F28",
+    "name": "Worcester",
+    "id": "E14001052"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "F29",
+    "name": "Workington",
+    "id": "E14001053"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.4106786287532045,
+     53.48277628610695
+    ]
+   },
+   "properties": {
+    "cdo": "F30",
+    "name": "Worsley and Eccles South",
+    "id": "E14001054"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.4353275693044425,
+     50.82062505383396
+    ]
+   },
+   "properties": {
+    "cdo": "F31",
+    "name": "Worthing West",
+    "id": "E14001055"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8248601202282577,
+     51.607954041909224
+    ]
+   },
+   "properties": {
+    "cdo": "F32",
+    "name": "Wycombe",
+    "id": "E14001056"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "F33",
+    "name": "Wyre and Preston North",
+    "id": "E14001057"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.2778664041214984,
+     52.38507013519768
+    ]
+   },
+   "properties": {
+    "cdo": "F34",
+    "name": "Wyre Forest",
+    "id": "E14001058"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.281512675331931,
+     53.39251594868371
+    ]
+   },
+   "properties": {
+    "cdo": "F35",
+    "name": "Wythenshawe and Sale East",
+    "id": "E14001059"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.817410236061447,
+     50.9192503376011
+    ]
+   },
+   "properties": {
+    "cdo": "F36",
+    "name": "Yeovil",
+    "id": "E14001060"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.0894163468041644,
+     53.95417344116603
+    ]
+   },
+   "properties": {
+    "cdo": "F37",
+    "name": "York Central",
+    "id": "E14001061"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9502097039871202,
+     53.96571678834877
+    ]
+   },
+   "properties": {
+    "cdo": "F38",
+    "name": "York Outer",
+    "id": "E14001062"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "801",
+    "name": "Aberdeen North",
+    "id": "S14000001"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "802",
+    "name": "Aberdeen South",
+    "id": "S14000002"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.8664894339655596,
+     55.85023878815713
+    ]
+   },
+   "properties": {
+    "cdo": "803",
+    "name": "Airdrie and Shotts",
+    "id": "S14000003"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "804",
+    "name": "Angus",
+    "id": "S14000004"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "805",
+    "name": "Argyll and Bute",
+    "id": "S14000005"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "806",
+    "name": "Ayr, Carrick and Cumnock",
+    "id": "S14000006"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "807",
+    "name": "Banff and Buchan",
+    "id": "S14000007"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "808",
+    "name": "Berwickshire, Roxburgh and Selkirk",
+    "id": "S14000008"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "809",
+    "name": "Caithness, Sutherland and Easter Ross",
+    "id": "S14000009"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "810",
+    "name": "Central Ayrshire",
+    "id": "S14000010"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -4.066272748775773,
+     55.880247305208556
+    ]
+   },
+   "properties": {
+    "cdo": "811",
+    "name": "Coatbridge, Chryston and Bellshill",
+    "id": "S14000011"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -4.095285762918992,
+     55.97516749901315
+    ]
+   },
+   "properties": {
+    "cdo": "812",
+    "name": "Cumbernauld, Kilsyth and Kirkintilloch East",
+    "id": "S14000012"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "813",
+    "name": "Dumfries and Galloway",
+    "id": "S14000013"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.6923082827356932,
+     55.393915430738076
+    ]
+   },
+   "properties": {
+    "cdo": "814",
+    "name": "Dumfriesshire, Clydesdale and Tweeddale",
+    "id": "S14000014"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.806811644155336,
+     56.51888231492549
+    ]
+   },
+   "properties": {
+    "cdo": "815",
+    "name": "Dundee East",
+    "id": "S14000015"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.0634331017333105,
+     56.50564668196195
+    ]
+   },
+   "properties": {
+    "cdo": "816",
+    "name": "Dundee West",
+    "id": "S14000016"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.5225960727165524,
+     56.085942022628515
+    ]
+   },
+   "properties": {
+    "cdo": "817",
+    "name": "Dunfermline and West Fife",
+    "id": "S14000017"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -4.359571421614615,
+     55.93857008409874
+    ]
+   },
+   "properties": {
+    "cdo": "818",
+    "name": "East Dunbartonshire",
+    "id": "S14000018"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -4.154829847207542,
+     55.678021480403174
+    ]
+   },
+   "properties": {
+    "cdo": "819",
+    "name": "East Kilbride, Strathaven and Lesmahagow",
+    "id": "S14000019"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "820",
+    "name": "East Lothian",
+    "id": "S14000020"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -4.330009002822278,
+     55.74950457904501
+    ]
+   },
+   "properties": {
+    "cdo": "821",
+    "name": "East Renfrewshire",
+    "id": "S14000021"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.1400756114624295,
+     55.94399102860782
+    ]
+   },
+   "properties": {
+    "cdo": "822",
+    "name": "Edinburgh East",
+    "id": "S14000022"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.1931189469204373,
+     55.9692322843106
+    ]
+   },
+   "properties": {
+    "cdo": "823",
+    "name": "Edinburgh North and Leith",
+    "id": "S14000023"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.1723320456017845,
+     55.9120802351278
+    ]
+   },
+   "properties": {
+    "cdo": "824",
+    "name": "Edinburgh South",
+    "id": "S14000024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.3150763574478566,
+     55.88450513712086
+    ]
+   },
+   "properties": {
+    "cdo": "825",
+    "name": "Edinburgh South West",
+    "id": "S14000025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "826",
+    "name": "Edinburgh West",
+    "id": "S14000026"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "847",
+    "name": "Na h-Eileanan an Iar",
+    "id": "S14000027"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.8486530216141697,
+     56.015410990896086
+    ]
+   },
+   "properties": {
+    "cdo": "827",
+    "name": "Falkirk",
+    "id": "S14000028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "828",
+    "name": "Glasgow Central",
+    "id": "S14000029"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -4.125411413202221,
+     55.8556367443322
+    ]
+   },
+   "properties": {
+    "cdo": "829",
+    "name": "Glasgow East",
+    "id": "S14000030"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -4.288415418185792,
+     55.895987278389924
+    ]
+   },
+   "properties": {
+    "cdo": "830",
+    "name": "Glasgow North",
+    "id": "S14000031"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -4.216335545906107,
+     55.883003591188974
+    ]
+   },
+   "properties": {
+    "cdo": "831",
+    "name": "Glasgow North East",
+    "id": "S14000032"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -4.364598021200631,
+     55.89329275007066
+    ]
+   },
+   "properties": {
+    "cdo": "832",
+    "name": "Glasgow North West",
+    "id": "S14000033"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -4.243535392212183,
+     55.81282636572238
+    ]
+   },
+   "properties": {
+    "cdo": "833",
+    "name": "Glasgow South",
+    "id": "S14000034"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -4.345271994779858,
+     55.83396079263765
+    ]
+   },
+   "properties": {
+    "cdo": "834",
+    "name": "Glasgow South West",
+    "id": "S14000035"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.1596235311666834,
+     56.184892287638434
+    ]
+   },
+   "properties": {
+    "cdo": "835",
+    "name": "Glenrothes",
+    "id": "S14000036"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "836",
+    "name": "Gordon",
+    "id": "S14000037"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -4.743655904315164,
+     55.901190289640155
+    ]
+   },
+   "properties": {
+    "cdo": "837",
+    "name": "Inverclyde",
+    "id": "S14000038"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -4.240550086432769,
+     57.202274152065755
+    ]
+   },
+   "properties": {
+    "cdo": "838",
+    "name": "Inverness, Nairn, Badenoch and Strathspey",
+    "id": "S14000039"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -4.304005967378446,
+     55.58263169541799
+    ]
+   },
+   "properties": {
+    "cdo": "839",
+    "name": "Kilmarnock and Loudoun",
+    "id": "S14000040"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "840",
+    "name": "Kirkcaldy and Cowdenbeath",
+    "id": "S14000041"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.6144401513797995,
+     55.735570861701724
+    ]
+   },
+   "properties": {
+    "cdo": "841",
+    "name": "Lanark and Hamilton East",
+    "id": "S14000042"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.664559919688935,
+     55.93775452497133
+    ]
+   },
+   "properties": {
+    "cdo": "842",
+    "name": "Linlithgow and East Falkirk",
+    "id": "S14000043"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.535907701483192,
+     55.861453770825484
+    ]
+   },
+   "properties": {
+    "cdo": "843",
+    "name": "Livingston",
+    "id": "S14000044"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.107638760676174,
+     55.821186374664315
+    ]
+   },
+   "properties": {
+    "cdo": "844",
+    "name": "Midlothian",
+    "id": "S14000045"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "845",
+    "name": "Moray",
+    "id": "S14000046"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.911346751682716,
+     55.782161043529584
+    ]
+   },
+   "properties": {
+    "cdo": "846",
+    "name": "Motherwell and Wishaw",
+    "id": "S14000047"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "848",
+    "name": "North Ayrshire and Arran",
+    "id": "S14000048"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "849",
+    "name": "North East Fife",
+    "id": "S14000049"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "850",
+    "name": "Ochil and South Perthshire",
+    "id": "S14000050"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "851",
+    "name": "Orkney and Shetland",
+    "id": "S14000051"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -4.506880306735216,
+     55.88025486768786
+    ]
+   },
+   "properties": {
+    "cdo": "852",
+    "name": "Paisley and Renfrewshire North",
+    "id": "S14000052"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -4.643387998851262,
+     55.806398477460846
+    ]
+   },
+   "properties": {
+    "cdo": "853",
+    "name": "Paisley and Renfrewshire South",
+    "id": "S14000053"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "854",
+    "name": "Perth and North Perthshire",
+    "id": "S14000054"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "855",
+    "name": "Ross, Skye and Lochaber",
+    "id": "S14000055"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -4.084604427617249,
+     55.79413961529211
+    ]
+   },
+   "properties": {
+    "cdo": "856",
+    "name": "Rutherglen and Hamilton West",
+    "id": "S14000056"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -4.3413011891133895,
+     56.24439723482652
+    ]
+   },
+   "properties": {
+    "cdo": "857",
+    "name": "Stirling",
+    "id": "S14000057"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "858",
+    "name": "West Aberdeenshire and Kincardine",
+    "id": "S14000058"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -4.517698930801816,
+     55.98690560100155
+    ]
+   },
+   "properties": {
+    "cdo": "859",
+    "name": "West Dunbartonshire",
+    "id": "S14000059"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "W01",
+    "name": "Ynys Mon",
+    "id": "W07000041"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "W02",
+    "name": "Delyn",
+    "id": "W07000042"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "W03",
+    "name": "Alyn and Deeside",
+    "id": "W07000043"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.9516061622296013,
+     53.07613828407773
+    ]
+   },
+   "properties": {
+    "cdo": "W04",
+    "name": "Wrexham",
+    "id": "W07000044"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "W05",
+    "name": "Llanelli",
+    "id": "W07000045"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "W06",
+    "name": "Gower",
+    "id": "W07000046"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.995025929429972,
+     51.62308286365678
+    ]
+   },
+   "properties": {
+    "cdo": "W07",
+    "name": "Swansea West",
+    "id": "W07000047"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.914167040050864,
+     51.65640123869153
+    ]
+   },
+   "properties": {
+    "cdo": "W08",
+    "name": "Swansea East",
+    "id": "W07000048"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "W09",
+    "name": "Aberavon",
+    "id": "W07000049"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.1633204553971908,
+     51.5048013433672
+    ]
+   },
+   "properties": {
+    "cdo": "W10",
+    "name": "Cardiff Central",
+    "id": "W07000050"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.228723157938162,
+     51.52766482649277
+    ]
+   },
+   "properties": {
+    "cdo": "W11",
+    "name": "Cardiff North",
+    "id": "W07000051"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.487973101354103,
+     51.65257057098446
+    ]
+   },
+   "properties": {
+    "cdo": "W12",
+    "name": "Rhondda",
+    "id": "W07000052"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.056330550602647,
+     51.701444635432594
+    ]
+   },
+   "properties": {
+    "cdo": "W13",
+    "name": "Torfaen",
+    "id": "W07000053"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.876067146028572,
+     51.77109923985579
+    ]
+   },
+   "properties": {
+    "cdo": "W14",
+    "name": "Monmouth",
+    "id": "W07000054"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "W15",
+    "name": "Newport East",
+    "id": "W07000055"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "W16",
+    "name": "Newport West",
+    "id": "W07000056"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -4.1441814557136105,
+     53.13047193706011
+    ]
+   },
+   "properties": {
+    "cdo": "W17",
+    "name": "Arfon",
+    "id": "W07000057"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.8505770923081197,
+     53.130111183295696
+    ]
+   },
+   "properties": {
+    "cdo": "W18",
+    "name": "Aberconwy",
+    "id": "W07000058"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.600159274187159,
+     53.141141342163536
+    ]
+   },
+   "properties": {
+    "cdo": "W19",
+    "name": "Clwyd West",
+    "id": "W07000059"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "W20",
+    "name": "Vale of Clwyd",
+    "id": "W07000060"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "W21",
+    "name": "Dwyfor Meirionnydd",
+    "id": "W07000061"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.1376293965789377,
+     52.96394556862186
+    ]
+   },
+   "properties": {
+    "cdo": "W22",
+    "name": "Clwyd South",
+    "id": "W07000062"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.4226524095821267,
+     52.62662702010898
+    ]
+   },
+   "properties": {
+    "cdo": "W23",
+    "name": "Montgomeryshire",
+    "id": "W07000063"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "W24",
+    "name": "Ceredigion",
+    "id": "W07000064"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "W25",
+    "name": "Preseli Pembrokeshire",
+    "id": "W07000065"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "W26",
+    "name": "Carmarthen West and South Pembrokeshire",
+    "id": "W07000066"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "W27",
+    "name": "Carmarthen East and Dinefwr",
+    "id": "W07000067"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.4002698307806356,
+     52.10509389995214
+    ]
+   },
+   "properties": {
+    "cdo": "W28",
+    "name": "Brecon and Radnorshire",
+    "id": "W07000068"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.7575604602711086,
+     51.71909551178819
+    ]
+   },
+   "properties": {
+    "cdo": "W29",
+    "name": "Neath",
+    "id": "W07000069"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.4515868747207725,
+     51.717986960619456
+    ]
+   },
+   "properties": {
+    "cdo": "W30",
+    "name": "Cynon Valley",
+    "id": "W07000070"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.334073628716135,
+     51.73988548314374
+    ]
+   },
+   "properties": {
+    "cdo": "W31",
+    "name": "Merthyr Tydfil and Rhymney",
+    "id": "W07000071"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.193855602545434,
+     51.766742181303904
+    ]
+   },
+   "properties": {
+    "cdo": "W32",
+    "name": "Blaenau Gwent",
+    "id": "W07000072"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.590481334982599,
+     51.50462455478372
+    ]
+   },
+   "properties": {
+    "cdo": "W33",
+    "name": "Bridgend",
+    "id": "W07000073"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.5539446839824596,
+     51.57535868187109
+    ]
+   },
+   "properties": {
+    "cdo": "W34",
+    "name": "Ogmore",
+    "id": "W07000074"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.355247679396675,
+     51.56826758215899
+    ]
+   },
+   "properties": {
+    "cdo": "W35",
+    "name": "Pontypridd",
+    "id": "W07000075"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.2177650332572365,
+     51.60785762206322
+    ]
+   },
+   "properties": {
+    "cdo": "W36",
+    "name": "Caerphilly",
+    "id": "W07000076"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.158693562719175,
+     51.66034886593475
+    ]
+   },
+   "properties": {
+    "cdo": "W37",
+    "name": "Islwyn",
+    "id": "W07000077"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.4404989402667914,
+     51.448243812541975
+    ]
+   },
+   "properties": {
+    "cdo": "W38",
+    "name": "Vale of Glamorgan",
+    "id": "W07000078"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.269590291820735,
+     51.50613706951695
+    ]
+   },
+   "properties": {
+    "cdo": "W39",
+    "name": "Cardiff West",
+    "id": "W07000079"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": "W40",
+    "name": "Cardiff South and Penarth",
+    "id": "W07000080"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": 1,
+    "Area_sqkm": 115.440659,
+    "name": "NORTH DOWN",
+    "id": "N06000013"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -6.377208503726762,
+     54.4501500745744
+    ]
+   },
+   "properties": {
+    "cdo": 2,
+    "Area_sqkm": 479.69242,
+    "name": "UPPER BANN",
+    "id": "N06000017"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": 3,
+    "Area_sqkm": 593.040484,
+    "name": "EAST ANTRIM",
+    "id": "N06000005"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": 4,
+    "Area_sqkm": 1386.235791,
+    "name": "NORTH ANTRIM",
+    "id": "N06000012"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": 5,
+    "Area_sqkm": 1249.820808,
+    "name": "SOUTH DOWN",
+    "id": "N06000015"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -6.701562631170764,
+     54.704404252916184
+    ]
+   },
+   "properties": {
+    "cdo": 6,
+    "Area_sqkm": 1348.637953,
+    "name": "MID ULSTER",
+    "id": "N06000010"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -6.570814634497825,
+     54.25556797404585
+    ]
+   },
+   "properties": {
+    "cdo": 7,
+    "Area_sqkm": 1081.520817,
+    "name": "NEWRY AND ARMAGH",
+    "id": "N06000011"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -7.341620832089493,
+     54.66619198747447
+    ]
+   },
+   "properties": {
+    "cdo": 8,
+    "Area_sqkm": 1992.093599,
+    "name": "WEST TYRONE",
+    "id": "N06000018"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.840042118023417,
+     54.59391031411994
+    ]
+   },
+   "properties": {
+    "cdo": 9,
+    "Area_sqkm": 55.297807,
+    "name": "BELFAST EAST",
+    "id": "N06000001"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.929006847624919,
+     54.55682975859385
+    ]
+   },
+   "properties": {
+    "cdo": 10,
+    "Area_sqkm": 44.830281,
+    "name": "BELFAST SOUTH",
+    "id": "N06000003"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.667754858864313,
+     54.48908278942572
+    ]
+   },
+   "properties": {
+    "cdo": 11,
+    "Area_sqkm": 655.231442,
+    "name": "STRANGFORD",
+    "id": "N06000016"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -6.011568352775465,
+     54.586281155660835
+    ]
+   },
+   "properties": {
+    "cdo": 12,
+    "Area_sqkm": 45.147951,
+    "name": "BELFAST WEST",
+    "id": "N06000004"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -6.0746484599371104,
+     54.446889463367505
+    ]
+   },
+   "properties": {
+    "cdo": 13,
+    "Area_sqkm": 467.841192,
+    "name": "LAGAN VALLEY",
+    "id": "N06000009"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -6.191663379194647,
+     54.67720538673909
+    ]
+   },
+   "properties": {
+    "cdo": 14,
+    "Area_sqkm": 785.029335,
+    "name": "SOUTH ANTRIM",
+    "id": "N06000014"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.944867211419474,
+     54.64258858300176
+    ]
+   },
+   "properties": {
+    "cdo": 15,
+    "Area_sqkm": 50.318561,
+    "name": "BELFAST NORTH",
+    "id": "N06000002"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     null,
+     null
+    ]
+   },
+   "properties": {
+    "cdo": 16,
+    "Area_sqkm": 1275.269088,
+    "name": "EAST LONDONDERRY",
+    "id": "N06000006"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -7.371746949734078,
+     54.36192244587494
+    ]
+   },
+   "properties": {
+    "cdo": 17,
+    "Area_sqkm": 2506.011382,
+    "name": "FERMANAGH AND SOUTH TYRONE",
+    "id": "N06000007"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -7.331122499196966,
+     54.990887571556726
+    ]
+   },
+   "properties": {
+    "cdo": 18,
+    "Area_sqkm": 183.642632,
+    "name": "FOYLE",
+    "id": "N06000008"
+   }
+  }
+ ],
+ "type": "FeatureCollection"
+}

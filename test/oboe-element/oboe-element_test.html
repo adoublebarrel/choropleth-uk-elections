@@ -8,24 +8,397 @@
     <script src="../../../webcomponentsjs/webcomponents-lite.js"></script>
     <script src="../../../web-component-tester/browser.js"></script>
 
+    <link rel="import" href="../../bower_components/promise-polyfill/promise-polyfill.html">
     <link rel="import" href="../../src/oboe-element/oboe-element.html">
   </head>
   <body>
 
-    <test-fixture id="basic">
+    <test-fixture id="TrivialGet">
       <template>
-        <oboe-element></oboe-element>
+        <oboe-element url="/responds_to_get_with_json"></oboe-element>
+      </template>
+    </test-fixture>
+
+    <test-fixture id="GetWithNodeEvents">
+      <template is="dom-template">
+        <oboe-element
+            url="/responds_to_get_with_oboe_example_json"
+            nodes="[[jsonPathsToHandlers]]"
+        ></oboe-element>
+      </template>
+    </test-fixture>
+
+    <test-fixture id="GetWithPathEvents">
+      <template is="dom-template">
+        <oboe-element
+            url="/responds_to_get_with_oboe_example_json"
+            paths="[[jsonPathsToHandlers]]"
+        ></oboe-element>
+      </template>
+    </test-fixture>
+
+    <test-fixture id="FailingGet">
+      <template>
+        <oboe-element url="/responds_to_get_with_500"></oboe-element>
+      </template>
+    </test-fixture>
+
+    <test-fixture id="TrivialPost">
+      <template>
+        <oboe-element url="/responds_to_post_with_json" method="POST"></oboe-element>
+      </template>
+    </test-fixture>
+
+    <test-fixture id="CustomHeaders">
+      <template is="dom-template">
+        <oboe-element url="/responds_to_get_with_json" headers="[[customHeaders]]"></oboe-element>
+      </template>
+    </test-fixture>
+
+    <test-fixture id="PostWithBody">
+      <template is="dom-template">
+        <oboe-element
+            url="/responds_to_post_with_json"
+            method="POST"
+            contentType="[[contentType]]" body="[[body]]"></oboe-element>
+      </template>
+    </test-fixture>
+
+    <test-fixture id="CacheBusting">
+      <template>
+        <oboe-element url="/responds_to_get_with_json" cachebust></oboe-element>
+      </template>
+    </test-fixture>
+
+    <test-fixture id="WithCredentials">
+      <template>
+        <oboe-element url="/responds_to_get_with_json" with-credentials></oboe-element>
+      </template>
+    </test-fixture>
+
+    <test-fixture id="AutoGet">
+      <template>
+        <oboe-element url="/responds_to_get_with_json" auto></oboe-element>
+      </template>
+    </test-fixture>
+
+    <test-fixture id="AutoGetNoUrl">
+      <template>
+        <oboe-element auto></oboe-element>
       </template>
     </test-fixture>
 
     <script>
       suite('oboe-element', function() {
+        var responseHeaders = {
+          json: { 'Content-Type': 'application/json' },
+          plain: { 'Content-Type': 'text/plain' }
+        }
 
-        test('instantiating the element works', function() {
-          var element = fixture('basic');
-          assert.equal(element.is, 'oboe-element');
+        var request;
+        var server;
+
+        function timePasses(ms) {
+          return new Promise(function(resolve) {
+            window.setTimeout(function() {
+              resolve();
+            }, ms);
+          });
+        }
+
+        setup(function() {
+          server = sinon.fakeServer.create();
+          server.respondWith(
+            'GET',
+            /\/responds_to_get_with_json.*/,
+            [
+              200,
+              responseHeaders.json,
+              '{"success":true}'
+            ]
+          );
+
+          server.respondWith(
+            'GET',
+            /\/responds_to_get_with_oboe_example_json.*/,
+            [
+              200,
+              responseHeaders.json,
+              JSON.stringify({
+                "foods": [
+                  {"name":"aubergine",    "colour":"purple"},
+                  {"name":"apple",        "colour":"red"},
+                  {"name":"nuts",         "colour":"brown"}
+                ],
+                "badThings": [
+                  {"name":"poison",       "colour":"pink"},
+                  {"name":"broken_glass", "colour":"green"}
+                ]
+              }),
+            ]
+          );
+
+          server.respondWith(
+            'GET',
+            /\/responds_to_get_with_500.*/,
+            [
+              500,
+              responseHeaders.plain,
+              "There was in internal server error."
+            ]
+          );
+
+          server.respondWith(
+            'POST',
+            /\/responds_to_post_with_json.*/,
+            [
+              200,
+              responseHeaders.json,
+              '{"post_success":true}'
+            ]
+          );
+
         });
 
+        teardown(function() {
+          server.restore();
+        });
+
+        suite("when making simple GET requests", function() {
+          // Note: While you *can* use oboe-element like this
+          // you're better off using iron-ajax when you just want the
+          // whole response.
+
+          test("by default requests don't get automatically generated", function() {
+            var oboeElement = fixture('TrivialGet');
+            expect(server.requests.length).to.be.equal(0);
+            oboeElement.generateRequest();
+            expect(server.requests.length).to.be.equal(1);
+          });
+
+          test("responses can be retrieved directly from oboe's API", function() {
+            // Oboe's Docs: http://oboejs.com/api#-root-
+            var oboeElement = fixture('TrivialGet');
+            var oboe = oboeElement.generateRequest();
+
+            server.respond();
+            expect(oboe.root().success).to.be.equal(true);
+          });
+
+          test("responses can be retrieved via the lastResponse property", function() {
+            var oboeElement = fixture('TrivialGet');
+            var oboe = oboeElement.generateRequest();
+
+            server.respond();
+            expect(oboeElement.lastResponse.success).to.be.equal(true);
+          });
+
+          test("a response handler can be registered to oboe's done event", function(done) {
+            // Oboe's Docs: http://oboejs.com/api#done-event
+            var oboeElement = fixture('TrivialGet');
+            var oboe;
+
+            oboeElement.addEventListener('done', function(event){
+              expect(event.detail.success).to.be.equal(true);
+              done();
+            });
+
+            oboe = oboeElement.generateRequest();
+            server.respond();
+          });
+
+          test("a response handler can be refistered to oboe's fail event", function(done) {
+            var oboeElement = fixture('FailingGet');
+            var oboe;
+
+            oboeElement.addEventListener('fail', function(event) {
+              expect(event.detail.statusCode).to.be.equal(500);
+              expect(event.detail.body).to.be.equal("There was in internal server error.")
+              done();
+            });
+
+            oboe = oboeElement.generateRequest();
+            server.respond();
+          });
+
+        });
+
+        suite("translates oboe's node event callbacks to browser events", function() {
+          // Oboe's Docs: http://oboejs.com/api#node-event
+
+          test("matching patterns will fire their associated event", function() {
+            var foodHandler = sinon.spy();
+            var badThingsHandler = sinon.spy();
+            var map = {
+              'foods.*': { eventName: 'found-food' },
+              'badThings.*': { eventName: 'bad-thing-found' }
+            }
+
+            var oboeElement = fixture('GetWithNodeEvents', { 'jsonPathsToHandlers': map});
+            oboeElement.addEventListener('found-food', foodHandler);
+            oboeElement.addEventListener('bad-thing-found', badThingsHandler);
+            oboeElement.generateRequest();
+            server.respond();
+
+            expect(foodHandler.callCount).to.be.equal(3);
+            expect(badThingsHandler.callCount).to.be.equal(2);
+          });
+
+          test("handlers can drop nodes", function() {
+            // Oboe's Docs http://oboejs.com/api#oboe-drop for more info
+            var oboeElement;
+            var oboeReq;
+
+            var map = { 'badThings.*': { drop: true }};
+
+            oboeElement = fixture('GetWithNodeEvents', { 'jsonPathsToHandlers': map });
+
+            oboeReq = oboeElement.generateRequest();
+            server.respond();
+
+            // Oboe preserves the indexes but sets them as undefined
+            // see http://oboejs.com/api#oboe-drop for more info
+            expect(oboeReq.root().badThings[0]).to.be.equal(undefined);
+            expect(oboeReq.root().badThings[1]).to.be.equal(undefined);
+          });
+        });
+
+        suite("supports oboe's path events", function() {
+          // Oboe's Docs http://oboejs.com/api#path-event
+          test('matching patterns will cause their associated handler to be called', function() {
+            var foodHandler = sinon.spy();
+            var oboeElement = fixture(
+              'GetWithPathEvents',
+              { 'jsonPathsToHandlers': { 'foods': foodHandler} }
+            );
+
+            oboeElement.generateRequest();
+            server.respond();
+
+            expect(foodHandler.callCount).to.be.equal(1);
+          })
+        });
+
+        suite("supports oboe's start events", function() {
+          test("matching patterns will cause their associated handler to be called", function(done) {
+            // Oboe's Docs http://oboejs.com/api#start-event
+            var oboeElement = fixture('TrivialGet');
+            var oboe;
+
+            oboeElement.addEventListener('start', function(event) {
+              expect(event.detail.status).to.be.equal(200);
+              expect(event.detail.headers['Content-Type']).to.be.equal(responseHeaders.json['Content-Type']);
+              done();
+            });
+
+            oboe = oboeElement.generateRequest();
+            server.respond();
+          });
+        });
+
+        suite("supports oboe's optional invocation arguments", function() {
+          // See http://oboejs.com/api#the-oboe-function
+
+          test("the http verb can be changed by setting the 'method' attribute'", function() {
+            var oboeElement = fixture('TrivialPost');
+            var oboe = oboeElement.generateRequest();
+
+            server.respond();
+            expect(oboeElement.lastResponse.post_success).to.be.equal(true);
+          });
+
+          test("custom headers can be set via the 'headers' attribute", function() {
+            var oboeElement = fixture(
+              'CustomHeaders',
+              { customHeaders: {'Accept': 'application/json'} }
+            );
+
+            var oboe = oboeElement.generateRequest();
+
+            expect(server.requests[0].requestHeaders.Accept).to.be.equal('application/json');
+            server.respond();
+          });
+
+          suite("the body of the request can be set via the 'body' attribute", function() {
+            test("FormData is transformed into json, no support for files", function() {
+              // Oboe will attempt to JSON.stringify the body if it's an object which
+              // will butcher the FormData. As a compromise we'll convert FormData into an
+              // Object so that the json stringification works
+
+              var requestBody = new FormData();
+              requestBody.append('a', 'foo');
+              requestBody.append('b', 'bar');
+
+              var oboeElement = fixture('PostWithBody', { body: requestBody });
+              var oboe = oboeElement.generateRequest();
+
+              expect(server.requests[0].requestHeaders['Content-Type']).to.be.match(
+                /^application\/json;charset=.*$/);
+              expect(server.requests[0].requestBody).to.be.equal(JSON.stringify({ a: 'foo', b: 'bar'}));
+
+              server.respond();
+            });
+
+            test("url encoded data is handled correctly", function() {
+              var requestBody = 'a=foo&b=bar';
+              var oboeElement = fixture('PostWithBody', { body: requestBody});
+              var oboe = oboeElement.generateRequest();
+
+              expect(server.requests[0].requestHeaders['Content-Type']).to.match(
+                /^application\/x-www-form-urlencoded(;.*)?$/);
+
+              expect(server.requests[0].requestBody).to.be.equal(requestBody);
+            });
+
+            test("xml is handled correctly", function() {
+              var xmlDoc = document.implementation.createDocument(
+                null, "foo", null);
+              var node = xmlDoc.createElement("bar");
+              node.setAttribute("name", "baz");
+              xmlDoc.documentElement.appendChild(node);
+
+              var oboeElement = fixture('PostWithBody', { body: xmlDoc});
+              var oboe = oboeElement.generateRequest();
+
+              expect(server.requests[0].requestHeaders['Content-Type']).to.match(
+                /^application\/xml(;.*)?/);
+
+              expect(server.requests[0].requestBody).to.match(
+                /<foo\s*><bar\s+name="baz"\s*\/><\/foo\s*>/);
+            });
+          });
+
+          test("Cache busting can be turned on via the cachebust attribute", function() {
+            var oboeElement = fixture('CacheBusting');
+            var oboe = oboeElement.generateRequest();
+
+            expect(server.requests[0].url).to.be.match(/responds_to_get_with_json\?_=\d+$/);
+          });
+
+          test("withCredentials can be turned on via the with-credentials attribute", function() {
+            var oboeElement = fixture('WithCredentials');
+            var oboe = oboeElement.generateRequest();
+
+            expect(server.requests[0].withCredentials).to.be.equal(true);
+
+          });
+        });
+
+        suite("when 'auto' is enabled", function() {
+          setup(function() {
+          });
+
+          test('automatically generates new requests', function() {
+            var oboeElement = fixture('AutoGet');
+            expect(server.requests.length).to.be.equal(1);
+          });
+
+          test('does not send requests if url is not a string', function() {
+            var oboeElement = fixture('AutoGetNoUrl');
+            expect(server.requests.length).to.be.equal(0);
+          });
+
+        });
       });
     </script>
   </body>

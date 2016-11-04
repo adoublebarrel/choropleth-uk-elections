@@ -1,0 +1,36 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="leaflet-code-import.html">
+
+<dom-module id="dropdown-leaflet-control">
+  <template>
+    <style>
+      :host {
+      };
+
+    </style>
+    <div id="dropdown">
+        <content></content>
+    </div>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'dropdown-leaflet-control',
+
+      ready: function() {
+        this.scopeSubtree(this.$.map, true);
+      },
+
+      properties: {
+        renderedMap: {
+          type: Object
+        }
+      },
+
+      onAdd: function(map) {
+
+      }
+    });
+  </script>
+</dom-module>

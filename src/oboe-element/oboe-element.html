@@ -8,12 +8,159 @@
       is: 'oboe-element',
 
       properties: {
-        prop1: {
-          type: String,
-          value: 'oboe-element',
+        url: {
+          type: String
         },
+
+        method: {
+          type: String,
+          value: 'GET'
+        },
+
+        headers: {
+          type: Object
+        },
+
+        contentType: {
+          type: String
+        },
+
+        body: {
+
+        },
+
+        cachebust: {
+          type: Boolean,
+          value: false
+        },
+
+        withCredentials: {
+          type: Boolean,
+          value: false
+        },
+
+        auto: {
+          type: Boolean,
+          value: false
+        },
+
+        lastResponse: {
+        },
+
+        nodes: {
+          type: Object
+        },
+
+        paths: {
+          type: Object
+        }
+
       },
 
+      attached: function() {
+        if (this.auto) {
+          this.generateRequest();
+        }
+      },
+
+      generateRequest: function() {
+        var node = this._attachNodeEvents();
+
+        return oboe({
+          url: this.url,
+          method: this.method,
+          headers: this.requestHeaders,
+          body: this.convertBody(),
+          cached: !this.cachebust,
+          withCredentials: this.withCredentials
+        })
+          .node(node)
+          .path(this.paths)
+          .start(this._fireStart.bind(this))
+          .done(this._populateLastResponseAndFireDone.bind(this))
+          .fail(this._fireFail.bind(this));
+      },
+
+      convertBody() {
+        if (this.body instanceof FormData) {
+          var container = {};
+          this.body.forEach(function(value, key) {
+            container[key] = value;
+          });
+
+          return container;
+        }
+
+        return this.body;
+      },
+
+      get requestHeaders() {
+        var headers = {};
+        var contentType = this.contentType;
+
+        if (contentType == null && (this.body instanceof Document)) {
+          var oSerializer = new XMLSerializer();
+          contentType = 'application/xml';
+          this.body = oSerializer.serializeToString(this.body);
+        }
+
+        if (contentType == null && (typeof this.body === 'string')) {
+          contentType = 'application/x-www-form-urlencoded';
+        }
+
+        if (contentType) {
+          headers['Content-Type'] = contentType;
+        }
+
+        var header;
+
+        if (this.headers instanceof Object) {
+          for (header in this.headers) {
+            headers[header] = this.headers[header].toString();
+          }
+        }
+
+        return headers;
+      },
+
+      _populateLastResponseAndFireDone: function (parsedJson) {
+        this.lastResponse = parsedJson;
+        this.fire('done', parsedJson);
+      },
+
+      _fireStart: function(status, headers) {
+        this.fire('start', {status: status, headers: headers});
+      },
+
+      _fireFail: function(failure) {
+        this.fire('fail', failure);
+      },
+
+      _attachNodeEvents: function() {
+        var oboeNodes = {};
+
+        for (jsonPath in this.nodes) {
+          oboeNodes[jsonPath] = this._nodeEventFactory(
+            this.nodes[jsonPath].eventName,
+            this.fire.bind(this),
+            this.nodes[jsonPath].drop
+          );
+        }
+
+        return oboeNodes;
+      },
+
+      _nodeEventFactory: function(eventName, fire, drop) {
+        return function(node, path, ancestors) {
+          if (eventName) {
+            fire(eventName, {node: node, path: path, ancestors: ancestors});
+          }
+
+          if (drop) {
+            return oboe.drop;
+          }
+        }
+      }
     });
   </script>
 </dom-module>
