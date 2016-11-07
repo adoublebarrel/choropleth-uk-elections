@@ -1,4 +1,4 @@
-<link rel="import" href="/bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/polymer/polymer.html">
 <link rel="import" href="./oboe-import.html">
 
 <dom-module id="oboe-element">
@@ -81,7 +81,7 @@
           .fail(this._fireFail.bind(this));
       },
 
-      convertBody() {
+      convertBody: function() {
         if (this.body instanceof FormData) {
           var container = {};
           this.body.forEach(function(value, key) {

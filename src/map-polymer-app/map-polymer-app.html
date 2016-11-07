@@ -1,5 +1,5 @@
-<link rel="import" href="/bower_components/polymer/polymer.html">
-<link rel="import" href="/bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
 <link rel="import" href="../leaflet-element/leaflet-element.html">
 <link rel="import" href="../oboe-element/oboe-element.html">
 
@@ -26,8 +26,9 @@
           maxBounds: [[61, -8.5], [49,2]],
           zoomSnap: 0.2,
           minZoom: 1,
-          renderer: this.$.wpc.svg()
+          //renderer: this.$.wpc.svg()
         });
+
         this.$.wpc.renderedMap.setView([54.8, 2], 5.2);
         this.$.wpc.renderedMap.createPane('labels');
         this.$.wpc.renderedMap.getPane('labels').style.zIndex = 650;
@@ -63,7 +64,10 @@
       },
 
       listeners: {
-        'ev1': 'addFeatureToMap',
+        'gotConstituency': 'addFeatureToMap',
+        'fail': 'failed',
+        'start': 'started',
+        'done': 'allDone'
         //'layeradd': 'throttle'
       },
 
@@ -71,7 +75,7 @@
         jsonPathsToEvents: {
           type: Object,
           value: {
-            'features.*': { eventName: 'ev1', drop: true }
+            'features.*': { eventName: 'gotConstituency', drop: true }
           }
         },
 
@@ -150,6 +154,18 @@
           this.updateStyles();
         }, this);
 
+      },
+
+      failed: function(failure) {
+        console.log("failed", failure);
+      },
+
+      started: function() {
+        console.log('started');
+      },
+
+      allDone: function() {
+        console.log("all done");
       }
     });
   </script>

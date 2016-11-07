@@ -8,9 +8,22 @@ const labelsFileOut = process.argv[3];
 let constituencies = JSON.parse(fs.readFileSync(featuresFileIn));
 let name = "";
 for (feature of constituencies.features) {
-  name = feature.properties.nome;
-  feature.properties.name = name[0].toUpperCase();
-  fetature.properties.name = name.substring(1).toLowerCase();
+  name = feature.properties.name.split(' ');
+  feature.properties.name = '';
+
+  for (word of name) {
+    word = word.toLowerCase();
+    if (word == 'and' || word == 'of') {
+      feature.properties.name += word;
+    } else {
+      feature.properties.name += word[0].toUpperCase();
+      feature.properties.name += word.substring(1);
+    }
+
+    feature.properties.name += ' ';
+  }
+
+  feature.properties.name = feature.properties.name.trim();
 
   if (feature.geometry.type == "MultiPolygon") {
     feature.geometry.type = "Polygon";

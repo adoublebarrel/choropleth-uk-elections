@@ -26,7 +26,7 @@
    },
    "properties": {
     "cdo": "A02",
-    "name": "Aldridge-Brownhills",
+    "name": "Aldridge-brownhills",
     "id": "E14000531"
    }
   },
@@ -116,7 +116,7 @@
    },
    "properties": {
     "cdo": "A08",
-    "name": "Ashton-under-Lyne",
+    "name": "Ashton-under-lyne",
     "id": "E14000537"
    }
   },
@@ -371,7 +371,7 @@
    },
    "properties": {
     "cdo": "A25",
-    "name": "Berwick-upon-Tweed",
+    "name": "Berwick-upon-tweed",
     "id": "E14000554"
    }
   },
@@ -3626,7 +3626,7 @@
    },
    "properties": {
     "cdo": "C44",
-    "name": "Kingston upon Hull East",
+    "name": "Kingston Upon Hull East",
     "id": "E14000771"
    }
   },
@@ -3641,7 +3641,7 @@
    },
    "properties": {
     "cdo": "C45",
-    "name": "Kingston upon Hull North",
+    "name": "Kingston Upon Hull North",
     "id": "E14000772"
    }
   },
@@ -3656,7 +3656,7 @@
    },
    "properties": {
     "cdo": "C46",
-    "name": "Kingston upon Hull West and Hessle",
+    "name": "Kingston Upon Hull West and Hessle",
     "id": "E14000773"
    }
   },
@@ -4526,7 +4526,7 @@
    },
    "properties": {
     "cdo": "D05",
-    "name": "Newcastle upon Tyne Central",
+    "name": "Newcastle Upon Tyne Central",
     "id": "E14000831"
    }
   },
@@ -4541,7 +4541,7 @@
    },
    "properties": {
     "cdo": "D06",
-    "name": "Newcastle upon Tyne East",
+    "name": "Newcastle Upon Tyne East",
     "id": "E14000832"
    }
   },
@@ -4556,7 +4556,7 @@
    },
    "properties": {
     "cdo": "D07",
-    "name": "Newcastle upon Tyne North",
+    "name": "Newcastle Upon Tyne North",
     "id": "E14000833"
    }
   },
@@ -4571,7 +4571,7 @@
    },
    "properties": {
     "cdo": "D08",
-    "name": "Newcastle-under-Lyme",
+    "name": "Newcastle-under-lyme",
     "id": "E14000834"
    }
   },
@@ -5486,7 +5486,7 @@
    },
    "properties": {
     "cdo": "D69",
-    "name": "Richmond (Yorks)",
+    "name": "Richmond (yorks)",
     "id": "E14000895"
    }
   },
@@ -6641,7 +6641,7 @@
    },
    "properties": {
     "cdo": "E47",
-    "name": "Stoke-on-Trent Central",
+    "name": "Stoke-on-trent Central",
     "id": "E14000972"
    }
   },
@@ -6656,7 +6656,7 @@
    },
    "properties": {
     "cdo": "E48",
-    "name": "Stoke-on-Trent North",
+    "name": "Stoke-on-trent North",
     "id": "E14000973"
    }
   },
@@ -6671,7 +6671,7 @@
    },
    "properties": {
     "cdo": "E49",
-    "name": "Stoke-on-Trent South",
+    "name": "Stoke-on-trent South",
     "id": "E14000974"
    }
   },
@@ -6716,7 +6716,7 @@
    },
    "properties": {
     "cdo": "E52",
-    "name": "Stratford-on-Avon",
+    "name": "Stratford-on-avon",
     "id": "E14000977"
    }
   },
@@ -7631,7 +7631,7 @@
    },
    "properties": {
     "cdo": "F14",
-    "name": "Weston-Super-Mare",
+    "name": "Weston-super-mare",
     "id": "E14001038"
    }
   },
@@ -8396,7 +8396,7 @@
    },
    "properties": {
     "cdo": "847",
-    "name": "Na h-Eileanan an Iar",
+    "name": "Na H-eileanan An Iar",
     "id": "S14000027"
    }
   },
@@ -9492,7 +9492,7 @@
    "properties": {
     "cdo": 1,
     "Area_sqkm": 115.440659,
-    "name": "NORTH DOWN",
+    "name": "North Down",
     "id": "N06000013"
    }
   },
@@ -9508,7 +9508,7 @@
    "properties": {
     "cdo": 2,
     "Area_sqkm": 479.69242,
-    "name": "UPPER BANN",
+    "name": "Upper Bann",
     "id": "N06000017"
    }
   },
@@ -9524,7 +9524,7 @@
    "properties": {
     "cdo": 3,
     "Area_sqkm": 593.040484,
-    "name": "EAST ANTRIM",
+    "name": "East Antrim",
     "id": "N06000005"
    }
   },
@@ -9540,7 +9540,7 @@
    "properties": {
     "cdo": 4,
     "Area_sqkm": 1386.235791,
-    "name": "NORTH ANTRIM",
+    "name": "North Antrim",
     "id": "N06000012"
    }
   },
@@ -9556,7 +9556,7 @@
    "properties": {
     "cdo": 5,
     "Area_sqkm": 1249.820808,
-    "name": "SOUTH DOWN",
+    "name": "South Down",
     "id": "N06000015"
    }
   },
@@ -9572,7 +9572,7 @@
    "properties": {
     "cdo": 6,
     "Area_sqkm": 1348.637953,
-    "name": "MID ULSTER",
+    "name": "Mid Ulster",
     "id": "N06000010"
    }
   },
@@ -9588,7 +9588,7 @@
    "properties": {
     "cdo": 7,
     "Area_sqkm": 1081.520817,
-    "name": "NEWRY AND ARMAGH",
+    "name": "Newry and Armagh",
     "id": "N06000011"
    }
   },
@@ -9604,7 +9604,7 @@
    "properties": {
     "cdo": 8,
     "Area_sqkm": 1992.093599,
-    "name": "WEST TYRONE",
+    "name": "West Tyrone",
     "id": "N06000018"
    }
   },
@@ -9620,7 +9620,7 @@
    "properties": {
     "cdo": 9,
     "Area_sqkm": 55.297807,
-    "name": "BELFAST EAST",
+    "name": "Belfast East",
     "id": "N06000001"
    }
   },
@@ -9636,7 +9636,7 @@
    "properties": {
     "cdo": 10,
     "Area_sqkm": 44.830281,
-    "name": "BELFAST SOUTH",
+    "name": "Belfast South",
     "id": "N06000003"
    }
   },
@@ -9652,7 +9652,7 @@
    "properties": {
     "cdo": 11,
     "Area_sqkm": 655.231442,
-    "name": "STRANGFORD",
+    "name": "Strangford",
     "id": "N06000016"
    }
   },
@@ -9668,7 +9668,7 @@
    "properties": {
     "cdo": 12,
     "Area_sqkm": 45.147951,
-    "name": "BELFAST WEST",
+    "name": "Belfast West",
     "id": "N06000004"
    }
   },
@@ -9684,7 +9684,7 @@
    "properties": {
     "cdo": 13,
     "Area_sqkm": 467.841192,
-    "name": "LAGAN VALLEY",
+    "name": "Lagan Valley",
     "id": "N06000009"
    }
   },
@@ -9700,7 +9700,7 @@
    "properties": {
     "cdo": 14,
     "Area_sqkm": 785.029335,
-    "name": "SOUTH ANTRIM",
+    "name": "South Antrim",
     "id": "N06000014"
    }
   },
@@ -9716,7 +9716,7 @@
    "properties": {
     "cdo": 15,
     "Area_sqkm": 50.318561,
-    "name": "BELFAST NORTH",
+    "name": "Belfast North",
     "id": "N06000002"
    }
   },
@@ -9732,7 +9732,7 @@
    "properties": {
     "cdo": 16,
     "Area_sqkm": 1275.269088,
-    "name": "EAST LONDONDERRY",
+    "name": "East Londonderry",
     "id": "N06000006"
    }
   },
@@ -9748,7 +9748,7 @@
    "properties": {
     "cdo": 17,
     "Area_sqkm": 2506.011382,
-    "name": "FERMANAGH AND SOUTH TYRONE",
+    "name": "Fermanagh and South Tyrone",
     "id": "N06000007"
    }
   },
@@ -9764,7 +9764,7 @@
    "properties": {
     "cdo": 18,
     "Area_sqkm": 183.642632,
-    "name": "FOYLE",
+    "name": "Foyle",
     "id": "N06000008"
    }
   }
