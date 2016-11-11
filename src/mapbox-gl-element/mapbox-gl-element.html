@@ -1,0 +1,53 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="mapbox-gl-code-import.html">
+<link rel="import" href="mapbox-gl-style-import.html">
+
+<dom-module id="mapbox-gl-element">
+  <template>
+    <style>
+      :host {
+      };
+
+      #map {
+        height: calc(98vh);
+      }
+
+    </style>
+    <div id="map"></div>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'mapbox-gl-element',
+      behaviors: [mapboxgl], // Is this an abusive use of Polymer behaviors?
+
+      ready: function() {
+        this.scopeSubtree(this.$.map, true);
+      },
+
+      attached: function() {
+        mapboxgl.accessToken = this.accessToken;
+      },
+
+      properties: {
+        renderedMap: {
+          type: Object
+        },
+
+        accessToken: {
+          type: String
+        },
+
+        mapStyle: {
+          type: String
+        }
+      },
+
+      render: function(options) {
+        options.container = 'map';
+        this.renderedMap = new this.Map(options);
+      }
+    });
+  </script>
+</dom-module>

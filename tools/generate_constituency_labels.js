@@ -1,6 +1,5 @@
 const fs = require('fs');
 const polylabel = require('polylabel');
-const Transform = require('stream').Transform;
 
 const featuresFileIn = process.argv[2];
 const labelsFileOut = process.argv[3];
@@ -28,7 +27,6 @@ for (feature of constituencies.features) {
   if (feature.geometry.type == "MultiPolygon") {
     feature.geometry.type = "Polygon";
     feature.geometry.coordinates = [convertMultiPolygonToPolygon(feature.geometry.coordinates)];
-    console.log("convert", feature.geometry.coordinates);
   }
 
   feature.geometry.coordinates = polylabel(feature.geometry.coordinates, 1.0);
@@ -40,7 +38,7 @@ fs.writeFileSync(labelsFileOut, JSON.stringify(constituencies,null,1));
 /*
  * Quick and dirty conversion of a MultiPolygon to a single Polygon
  * By sampling the largest and smallest X,Y values. The result
- * is a very crued representation, a Polygon of four points but
+ * is a very crude representation, a Polygon of four points but
  * may be good enough for labeling UK and NI parliamentary
  * constituencies.
  */

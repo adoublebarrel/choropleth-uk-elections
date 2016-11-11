@@ -3,43 +3,43 @@
 <link rel="import" href="leaflet-style-import.html">
 
 <dom-module id="leaflet-element">
-  <template>
-    <style>
-      :host {
-      };
+    <template>
+        <style>
+         :host {
+         };
 
-      #map {
-        height: calc(98vh);
-        @apply(--leaflet-element-theme);
-      };
+         #map {
+             height: calc(98vh);
+             @apply(--leaflet-element-theme);
+         };
 
-      .wpc {
-        transition: fill 0.75s;
-      }
+         .wpc {
+             transition: fill 0.75s;
+         }
 
-    </style>
-    <div id="map"></div>
-  </template>
+        </style>
+        <div id="map"></div>
+    </template>
 
-  <script>
-    Polymer({
+    <script>
+     Polymer({
 
-      is: 'leaflet-element',
-      behaviors: [L], // Is this an abusive use of Polymer behaviors?
+         is: 'leaflet-element',
+         behaviors: [L], // Is this an abusive use of Polymer behaviors?
 
-      ready: function() {
-        this.scopeSubtree(this.$.map, true);
-      },
+         ready: function() {
+             this.scopeSubtree(this.$.map, true);
+         },
 
-      properties: {
-        renderedMap: {
-          type: Object
-        }
-      },
+         properties: {
+             renderedMap: {
+                 type: Object
+             }
+         },
 
-      render: function(options) {
-        this.renderedMap = L.map(this.$.map, options);
-      }
-    });
-  </script>
+         render: function(options) {
+             this.renderedMap = L.map(this.$.map, options);
+         }
+     });
+    </script>
 </dom-module>

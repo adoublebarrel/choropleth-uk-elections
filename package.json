@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "geojson-vt": "^2.4.0",
+    "mapbox-gl": "^0.26.0",
     "polylabel": "^1.0.2"
   },
   "name": "map-polymer",
