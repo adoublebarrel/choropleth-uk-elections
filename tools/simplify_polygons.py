@@ -5,6 +5,7 @@ import argparse
 import json
 
 from math import sqrt
+from decimal import *
 
 import pdb
 
@@ -18,83 +19,140 @@ geoJSON = json.load(open(args.geoJSON))
 epsilon = args.epsilon
 
 if epsilon <= 0:
-    print("Epsilon must be > 0")
-    sys.exit()
+  print("Epsilon must be > 0")
+  sys.exit()
 
 def PerpindicularDistanceFromLine(linePoint1, linePoint2, point):
-    (x1, y1) = linePoint1
-    (x2, y2) = linePoint2
-    (x0, y0) = point
+  (x1, y1) = (linePoint1[0], linePoint1[1])
+  (x2, y2) = (linePoint2[0], linePoint2[1])
+  (x0, y0) = (point[0], point[1])
 
-    y2MinusY1 = y2 - y1
-    x2MinusX1 = x2 - x1
+  y2MinusY1 = y2 - y1
+  x2MinusX1 = x2 - x1
 
-    numerator = abs(y2MinusY1 * x0 - x2MinusX1 * y0 + x2 * y1 - y2 * x1)
-    denominator = sqrt(y2MinusY1 ** 2 + x2MinusX1 ** 2)
+  numerator = abs(y2MinusY1 * x0 - x2MinusX1 * y0 + x2 * y1 - y2 * x1)
+  denominator = sqrt(y2MinusY1 ** 2 + x2MinusX1 ** 2)
 
-    return numerator / denominator
+  return numerator / denominator
 
-def FindMaxDistance(polygon):
-    maxDistance = 0.0
-    maxDistanceIndex = False
+def FindMaxDistance(polygon, printResult = False):
+  maxDistance = 0.0
+  maxDistanceIndex = False
+  #print(polygon[0])
+  #print(polygon[-1])
+  #print(coordinates)
 
-    for index, coordinates in enumerate(polygon[1:-2]):
-        distance = PerpindicularDistanceFromLine(polygon[0], polygon[-1], coordinates)
-        #print(polygon[0])
-        #print(polygon[-1])
-        #print(coordinates)
-        #print(distance)
-        if distance > maxDistance:
-            maxDistance = distance
-            maxDistanceIndex = index + 1
+  if printResult:
+    print(polygon)
 
-    return (maxDistanceIndex, maxDistance)
+  for index, coordinates in enumerate(polygon[1:-1]):
+    distance = PerpindicularDistanceFromLine(polygon[0], polygon[-1], coordinates)
+
+    if printResult:
+      print(distance)
+
+    if distance > maxDistance:
+      maxDistance = distance
+      maxDistanceIndex = index + 1
+
+  return (maxDistanceIndex, maxDistance)
 
 def RamerDouglasPeucker(polygon, epsilon):
-    keepPoints = [0, (len(polygon) - 1)]
-    pointIndices = []
-    pointIndex = False
+  keepPoints = [0]
+  pointIndices = []
+  pointIndex = False
 
-    # See if there is at least one point worth keeping
-    (maxDistanceIndex, maxDistance) = FindMaxDistance(polygon)
+  # See if there is at least one point worth keeping
+  (maxDistanceIndex, maxDistance) = FindMaxDistance(polygon)
+  #if (maxDistance < epsilon):
+  #print(maxDistance)
+
+
+  if maxDistance > epsilon:
+    keepPoints.append( maxDistanceIndex)
+    pointIndex = 1
+
+  keepPoints.append(len(polygon) -1)
+  keepPoints.append(0)
+
+  while pointIndex:
+    #pdb.set_trace()
+    previousPointIndex = keepPoints[pointIndex - 1]
+    currentPointIndex = keepPoints[pointIndex]
+    nextPointIndex = keepPoints[pointIndex + 1] + 1
+
+    # Check points before pointIndex
+    (maxDistanceIndex, maxDistance) = FindMaxDistance(polygon[previousPointIndex:currentPointIndex + 1])
+
+    #print(maxDistance)
     if maxDistance > epsilon:
-        keepPoints.insert(1, maxDistanceIndex)
-        pointIndex = 1
+      keepPoints.insert(pointIndex, maxDistanceIndex + previousPointIndex)
+      pointIndices.append(pointIndex)
+      pointIndex += 1
 
-    while pointIndex:
-        #pdb.set_trace()
-        previousPointIndex = keepPoints[pointIndex - 1]
-        currentPointIndex = keepPoints[pointIndex]
-        nextPointIndex = keepPoints[pointIndex + 1]
+    # Check points after point index
+    (maxDistanceIndex, maxDistance) = FindMaxDistance(polygon[currentPointIndex:nextPointIndex])
 
-        (maxDistanceIndex, maxDistance) = FindMaxDistance(polygon[previousPointIndex:currentPointIndex])
+    if maxDistance > epsilon:
+      keepPoints.insert(pointIndex + 1, maxDistanceIndex + currentPointIndex)
+      pointIndices.append(pointIndex + 1)
 
-        if maxDistance > epsilon:
-            keepPoints.insert(pointIndex, maxDistanceIndex + previousPointIndex)
-            pointIndices.append(pointIndex)
-            pointIndex += 1
+    if len(pointIndices):
+      pointIndex = pointIndices.pop(len(pointIndices) - 1)
+    else:
+      pointIndex = False
 
-        (maxDistanceIndex, maxDistance) = FindMaxDistance(polygon[currentPointIndex:nextPointIndex])
+  # for index, value in enumerate(polygon):
+  #   if index not in keepPoints:
+  #     prevIndex = index - 1
+  #     nextIndex = index + 1
 
-        if maxDistance > epsilon:
-            keepPoints.insert(pointIndex + 1, maxDistanceIndex + currentPointIndex)
-            pointIndices.append(pointIndex + 1)
+  #     while prevIndex not in keepPoints:
+  #       prevIndex -= 1
 
-        if len(pointIndices):
-            pointIndex = pointIndices.pop(len(pointIndices) - 1)
-        else:
-            pointIndex = False
+  #     while nextIndex not in keepPoints:
+  #       nextIndex += 1
 
-    return [polygon[i] for i in keepPoints]
+  #     nextIndex += 1
+
+  #     (i, v) = FindMaxDistance(polygon[prevIndex:nextIndex], True)
+
+  #     print(v > epsilon)
+
+  #print('keeping {0} of {1} points'.format(len(keepPoints), len(polygon)))
+  return [polygon[i] for i in keepPoints]
 
 for feature in geoJSON['features']:
     if feature['geometry']["type"] == "Polygon":
-        for polygon in feature['geometry']['coordinates']:
-            polygon[:] = RamerDouglasPeucker(polygon[0:-2], epsilon)
+      #print(feature['properties']['name'])
+      for polygon in feature['geometry']['coordinates']:
+        simplerPolygon = RamerDouglasPeucker(polygon[0:-1], epsilon)
+
+        polygonLength = len(polygon)
+        e = epsilon
+        while (len(simplerPolygon) < polygonLength) and len(simplerPolygon) < 10:
+          e = e / 2.5
+          simplerPolygon = RamerDouglasPeucker(polygon[0:-1], e)
+
+        polygon[:] = simplerPolygon
+        if polygon[0] != polygon[-1]:
+          print('Uh oh {0}!'.format(feature['properties']['name']))
 
     else:
-        for multipolygon in feature['geometry']['coordinates']:
-            for polygon in multipolygon:
-                polygon[:] = RamerDouglasPeucker(polygon[0:-2], epsilon)
+      p = []
+      for multipolygon in feature['geometry']['coordinates']:
+        for polygon in multipolygon:
+          simplerPolygon = RamerDouglasPeucker(polygon[0:-1], epsilon)
+
+          polygonLength = len(polygon)
+          e = epsilon
+          while (len(simplerPolygon) < polygonLength) and len(simplerPolygon) < 10:
+            e = e / 2.5
+            simplerPolygon = RamerDouglasPeucker(polygon[0:-1], e)
+
+          polygon[:] = simplerPolygon
+
+          if polygon[0] != polygon[-1]:
+            print('Uh oh {0}!'.format(feature['properties']['name']))
 
 print(json.dumps(geoJSON))

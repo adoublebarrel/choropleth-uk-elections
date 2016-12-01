@@ -33,7 +33,7 @@
         map.on('load', function() {
           map.addSource('constituencies', {
             type: 'geojson',
-            data: '/data/2016-constituency-results-reduced.json'
+            data: '/data/2016_CR_simplified.json'
           });
 
           map.addLayer({
@@ -49,6 +49,7 @@
                 'property': 'party',
                 'type': 'categorical',
                 'stops': [
+                  ['other', 'rgba(153, 153, 153, 0.8)'],
                   ['con', 'rgba(55,126,184, 0.8)'],
                   ['green', 'rgba(77, 175, 74, 0.8)'],
                   ['sf', 'rgba(0, 136, 0, 0.8)'],
@@ -60,7 +61,7 @@
                   ['snp', 'rgba(255, 218, 47, 0.8)'],
                   ['pc', 'rgba(0, 129, 66, 0.8)'],
                   ['ukip', 'rgba(152, 78, 163, 0.8)'],
-                  ['other', 'rgba(153, 153, 153, 0.8)']
+
                 ]
               },
               'fill-outline-color': 'rgba(255,255,255,0.55)'
